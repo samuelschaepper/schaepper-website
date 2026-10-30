@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContentSections from '../components/ContentSections.astro';
+import data from '../data/website.json';
+const page=data.pages.find(p=>p.path==='/');
+---
+<BaseLayout title={page.seo.title} description={page.seo.description} path="/"><div class="hero"><div class="wrap"><span class="eyebrow">Beratung · Transformation · Management</span><h1>{page.title}</h1><p>{page.intro}</p><a class="button light" href="/leistungen">Unsere Leistungen entdecken</a></div></div><ContentSections sections={page.sections.filter(s=>s.heading!=='Einführung')} /></BaseLayout>

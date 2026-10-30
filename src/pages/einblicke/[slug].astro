@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentSections from '../../components/ContentSections.astro';
+import data from '../../data/website.json';
+export function getStaticPaths(){return data.articles.filter(a=>a.status==='draft_ready').map(article=>({params:{slug:article.slug},props:{article}}));}
+const {article}=Astro.props;
+---
+<BaseLayout title={`${article.title} | Schäpper Consulting`} description="Einblicke zu IT-Governance, Outsourcing und Organisationsentwicklung." path={article.path}><div class="hero"><div class="wrap"><span class="eyebrow">{article.category.join(' · ')}</span><h1>{article.title}</h1></div></div><div class="article wrap"><ContentSections sections={article.sections} /></div></BaseLayout>

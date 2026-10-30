@@ -1,0 +1,821 @@
+{
+  "schema_version": "1.0",
+  "language": "de-CH",
+  "status": "editorial_draft_for_publication",
+  "brand": {
+    "name": "Schäpper Consulting GmbH",
+    "domain": "schaepper.com",
+    "tagline": "Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.",
+    "values": [
+      "Unabhängigkeit",
+      "Ganzheitliche Betrachtung",
+      "Pragmatismus",
+      "Verantwortung"
+    ],
+    "positioning": "Branchenübergreifend mit ausgewiesener Expertise in der Finanzindustrie",
+    "voice": {
+      "company_pages": "wir",
+      "about": "ich"
+    },
+    "tone": "sachlich und professionell",
+    "design": {
+      "colors": {
+        "navy": "#172A3A",
+        "steel_blue": "#4E778B",
+        "light_gray": "#F1F3F2",
+        "sand_accent": "#C5A47E"
+      },
+      "notes": "Zurückhaltend, viel Weissraum, authentisches Porträt statt generischer Businessbilder"
+    }
+  },
+  "contact": {
+    "company": "Schäpper Consulting GmbH",
+    "person": "Samuel Schäpper",
+    "role": "Gründer und Geschäftsführer",
+    "postal_code": "9475",
+    "city": "Sevelen",
+    "country": "Schweiz",
+    "email": "samuel@schaepper.com",
+    "phone": null,
+    "linkedin": null
+  },
+  "navigation": [
+    {
+      "label": "Startseite",
+      "href": "/"
+    },
+    {
+      "label": "Leistungen",
+      "href": "/leistungen",
+      "children": [
+        {
+          "label": "IT-Beratung und Managementdienstleistungen",
+          "href": "/it-beratung"
+        },
+        {
+          "label": "Projektmanagement und Transformation",
+          "href": "/projektmanagement"
+        },
+        {
+          "label": "Management-Assessments",
+          "href": "/management-assessments"
+        },
+        {
+          "label": "Interim-Management",
+          "href": "/interim-management"
+        }
+      ]
+    },
+    {
+      "label": "Über mich",
+      "href": "/ueber-mich"
+    },
+    {
+      "label": "Expertise",
+      "href": "/expertise"
+    },
+    {
+      "label": "Einblicke",
+      "href": "/einblicke"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt"
+    }
+  ],
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.",
+      "seo": {
+        "title": "Schäpper Consulting – Beratung & Management",
+        "description": "Unabhängige Beratung und Managementunterstützung für Unternehmen und Organisationen."
+      },
+      "intro": "Unabhängige Beratung und Managementunterstützung für Unternehmen und Organisationen.",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Schäpper Consulting begleitet Unternehmen bei strategischen, organisatorischen und technologischen Herausforderungen. Wir unterstützen bei der Analyse komplexer Fragestellungen, der Entwicklung tragfähiger Lösungen und der erfolgreichen Umsetzung von Veränderungen.",
+            "Unsere Dienstleistungen verbinden fundierte Management- und IT-Erfahrung mit einer unabhängigen Aussensicht und einem pragmatischen Vorgehen."
+          ],
+          "cta": {
+            "label": "Unsere Leistungen entdecken",
+            "href": "/leistungen"
+          }
+        },
+        {
+          "heading": "Erfahrung und Verantwortung",
+          "paragraphs": [
+            "Unternehmen stehen vor vielfältigen Herausforderungen: Veränderungen im Marktumfeld, neue regulatorische Anforderungen, technologische Entwicklungen oder die Notwendigkeit, bestehende Strukturen und Prozesse weiterzuentwickeln.",
+            "Wir unterstützen unsere Kunden dabei, diese Herausforderungen systematisch anzugehen. Dabei betrachten wir organisatorische, wirtschaftliche und technologische Aspekte im Zusammenhang und entwickeln Lösungen, die sich an den konkreten Anforderungen des Unternehmens orientieren.",
+            "Wir verstehen Beratung nicht als isolierte Erarbeitung von Konzepten. Wo es erforderlich ist, übernehmen wir auch Verantwortung für Projekte, Veränderungen und Managementaufgaben."
+          ]
+        },
+        {
+          "heading": "Unsere Leistungen",
+          "items": [
+            {
+              "title": "IT-Beratung und Managementdienstleistungen",
+              "text": "Wir unterstützen Unternehmen bei der strategischen und organisatorischen Weiterentwicklung ihrer IT. Unsere Schwerpunkte liegen in den Bereichen IT-Governance, Informationssicherheit, Sourcing, Betriebsmodelle und Digitalisierung.",
+              "href": "/it-beratung"
+            },
+            {
+              "title": "Projektmanagement und Transformation",
+              "text": "Wir übernehmen die Leitung und Steuerung anspruchsvoller Projekte und begleiten organisatorische und technologische Veränderungen – von der Planung bis zur Umsetzung.",
+              "href": "/projektmanagement"
+            },
+            {
+              "title": "Management-Assessments",
+              "text": "Wir analysieren Unternehmen, Organisationen und IT-Dienstleister hinsichtlich ihrer Strukturen, Prozesse, Steuerung und Leistungsfähigkeit. Unsere unabhängigen Beurteilungen schaffen Transparenz und fundierte Entscheidungsgrundlagen.",
+              "href": "/management-assessments"
+            },
+            {
+              "title": "Interim-Management",
+              "text": "Wir übernehmen zeitlich befristete Führungs- und Managementfunktionen. Damit unterstützen wir Unternehmen bei personellen Übergängen, organisatorischen Veränderungen und besonderen Herausforderungen.",
+              "href": "/interim-management"
+            }
+          ]
+        },
+        {
+          "heading": "Branchenübergreifende Kompetenz",
+          "paragraphs": [
+            "Unsere Dienstleistungen richten sich an Unternehmen unterschiedlicher Branchen und Grössen.",
+            "Ein besonderer Erfahrungsschwerpunkt liegt in der Finanzindustrie und in regulierten Unternehmensumfeldern. Wir kennen die Anforderungen an IT-Governance, Informationssicherheit, Outsourcing und die Steuerung komplexer IT-Dienstleistungen.",
+            "Diese Erfahrungen bringen wir auch in anderen Branchen ein – insbesondere dort, wo hohe Anforderungen an Zuverlässigkeit, Sicherheit, Wirtschaftlichkeit und organisatorische Leistungsfähigkeit bestehen."
+          ]
+        },
+        {
+          "heading": "Unser Beratungsverständnis",
+          "items": [
+            {
+              "title": "Unabhängigkeit",
+              "text": "Wir beurteilen Sachverhalte objektiv und vertreten klare, nachvollziehbare Positionen. Unsere Empfehlungen orientieren sich an den Interessen und Zielen unserer Kunden."
+            },
+            {
+              "title": "Ganzheitliche Betrachtung",
+              "text": "Wir berücksichtigen die Zusammenhänge zwischen Unternehmensstrategie, Organisation, Menschen, Prozessen und Technologie."
+            },
+            {
+              "title": "Pragmatismus",
+              "text": "Wir entwickeln umsetzbare Lösungen, die zu den Anforderungen, Möglichkeiten und zur Unternehmenskultur unserer Kunden passen."
+            },
+            {
+              "title": "Verantwortung",
+              "text": "Wir begleiten unsere Kunden nicht nur bei der Entscheidungsfindung, sondern übernehmen bei Bedarf auch Verantwortung in der Umsetzung."
+            }
+          ]
+        },
+        {
+          "heading": "Lassen Sie uns ins Gespräch kommen",
+          "paragraphs": [
+            "Sie möchten Ihre Organisation weiterentwickeln, ein anspruchsvolles Vorhaben umsetzen oder benötigen eine unabhängige Einschätzung? Gerne besprechen wir Ihre Ausgangslage und die Möglichkeiten einer Zusammenarbeit."
+          ],
+          "cta": {
+            "label": "Kontakt aufnehmen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "path": "/leistungen",
+      "title": "Unsere Leistungen",
+      "seo": {
+        "title": "Beratungs- und Managementleistungen",
+        "description": "Beratung, Analyse, Umsetzung und Führung"
+      },
+      "intro": "Beratung, Analyse, Umsetzung und Führung",
+      "sections": [
+        {
+          "heading": "Leistungsverständnis",
+          "paragraphs": [
+            "Schäpper Consulting unterstützt Unternehmen bei der Bewältigung strategischer, organisatorischer und operativer Herausforderungen.",
+            "Unser Leistungsangebot umfasst vier eigenständige, sich ergänzende Bereiche. Je nach Aufgabenstellung begleiten wir unsere Kunden beratend, übernehmen die Leitung komplexer Vorhaben, führen unabhängige Assessments durch oder unterstützen mit Managementverantwortung auf Zeit."
+          ]
+        },
+        {
+          "heading": "Vier Standbeine",
+          "items": [
+            {
+              "title": "IT-Beratung und Managementdienstleistungen",
+              "text": "Strategische und organisatorische Weiterentwicklung von IT-Organisationen, Governance-Strukturen, Sourcing-Modellen und Informationssicherheit.",
+              "href": "/it-beratung"
+            },
+            {
+              "title": "Projektmanagement und Transformation",
+              "text": "Planung, Führung und Steuerung von Projekten sowie Begleitung organisatorischer und technologischer Veränderungen.",
+              "href": "/projektmanagement"
+            },
+            {
+              "title": "Management-Assessments",
+              "text": "Unabhängige Beurteilung der Organisation, Führung, Governance und Leistungsfähigkeit von Unternehmen und IT-Dienstleistern.",
+              "href": "/management-assessments"
+            },
+            {
+              "title": "Interim-Management",
+              "text": "Temporäre Übernahme von Führungs- und Managementaufgaben zur Sicherstellung der Handlungsfähigkeit und Weiterentwicklung von Organisationen.",
+              "href": "/interim-management"
+            }
+          ]
+        },
+        {
+          "heading": "Individuelle Zusammenarbeit",
+          "paragraphs": [
+            "Art und Umfang unserer Unterstützung richten sich nach der konkreten Ausgangslage und den Zielsetzungen des Auftraggebers.",
+            "Wir übernehmen klar definierte Einzelaufträge ebenso wie längerfristige Beratungs- und Managementmandate. Dabei legen wir Wert auf transparente Vereinbarungen, klare Verantwortlichkeiten und eine partnerschaftliche Zusammenarbeit."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-consulting",
+      "path": "/it-beratung",
+      "title": "IT-Beratung und Managementdienstleistungen",
+      "seo": {
+        "title": "IT-Beratung, Governance & Betriebsmodelle",
+        "description": "IT strategisch ausrichten und wirksam steuern"
+      },
+      "intro": "IT strategisch ausrichten und wirksam steuern",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Die Informationstechnologie ist ein wesentlicher Bestandteil der Wertschöpfung moderner Unternehmen. Gleichzeitig steigen die Anforderungen an Wirtschaftlichkeit, Sicherheit, Verfügbarkeit und regulatorische Konformität.",
+            "Wir unterstützen Unternehmen bei der strategischen und organisatorischen Weiterentwicklung ihrer IT. Unser Fokus liegt auf einer wirksamen IT-Governance, klaren Verantwortlichkeiten und Betriebsmodellen, die die geschäftlichen Anforderungen zuverlässig unterstützen.",
+            "Dabei berücksichtigen wir die Zusammenhänge zwischen Geschäftsstrategie, Organisation, Prozessen, Technologie und externen Dienstleistern."
+          ]
+        },
+        {
+          "heading": "Unsere Schwerpunkte",
+          "items": [
+            {
+              "title": "IT-Strategie und IT-Governance",
+              "text": "Wir unterstützen bei der Entwicklung und Überprüfung von IT-Strategien sowie bei der Gestaltung von Führungs-, Entscheidungs- und Steuerungsstrukturen. Ziel ist eine transparente und wirksame Ausrichtung der IT an den Unternehmenszielen."
+            },
+            {
+              "title": "IT-Betriebsmodelle und Target Operating Models",
+              "text": "Wir analysieren bestehende Organisations- und Betriebsstrukturen und entwickeln geeignete Zielmodelle. Dazu gehören die Definition von Aufgaben, Rollen, Verantwortlichkeiten, Prozessen und Schnittstellen zwischen internen Organisationseinheiten und externen Dienstleistern."
+            },
+            {
+              "title": "IT-Sourcing und Dienstleistermanagement",
+              "text": "Wir begleiten die Entwicklung von Sourcing-Modellen sowie die Gestaltung und Weiterentwicklung der Zusammenarbeit mit externen IT-Dienstleistern. Ein besonderer Schwerpunkt liegt auf den verbleibenden internen Steuerungsfunktionen (Retained IT), den Leistungsvereinbarungen und der Governance."
+            },
+            {
+              "title": "Informationssicherheit und IT-Risikomanagement",
+              "text": "Wir unterstützen bei der Beurteilung und Weiterentwicklung von organisatorischen Sicherheitsstrukturen, Verantwortlichkeiten, Kontrollen und IT-Risikomanagementprozessen."
+            },
+            {
+              "title": "IT-Architektur und Digitalisierung",
+              "text": "Wir begleiten Unternehmen bei der strategischen Weiterentwicklung ihrer IT-Landschaft. Dabei betrachten wir insbesondere die Enterprise-Architektur, technologische Abhängigkeiten und die Abstimmung von IT-Investitionen mit den geschäftlichen Anforderungen."
+            },
+            {
+              "title": "Regulatorische Anforderungen",
+              "text": "Wir unterstützen Unternehmen in regulierten Branchen bei der organisatorischen Umsetzung von Anforderungen an die IT-Governance, das IKT-Risikomanagement und die Steuerung ausgelagerter Dienstleistungen."
+            }
+          ]
+        },
+        {
+          "heading": "Typische Fragestellungen",
+          "items": [
+            "Ist unsere IT-Organisation geeignet, die heutigen und zukünftigen Anforderungen des Unternehmens zu erfüllen?",
+            "Sind Rollen, Verantwortlichkeiten und Entscheidungsbefugnisse klar geregelt?",
+            "Wie gestalten wir die Zusammenarbeit zwischen interner IT und externen Dienstleistern?",
+            "Welche Kompetenzen und Steuerungsfunktionen müssen trotz Outsourcing im Unternehmen verbleiben?",
+            "Wie können wir unsere IT-Governance und unser Risikomanagement wirksam weiterentwickeln?",
+            "Welches Betriebsmodell eignet sich für unsere zukünftige IT-Ausrichtung?"
+          ]
+        },
+        {
+          "heading": "Ihr Nutzen",
+          "paragraphs": [
+            "Wir schaffen Transparenz über Strukturen, Verantwortlichkeiten und Handlungsbedarf. Gemeinsam mit unseren Kunden erarbeiten wir tragfähige organisatorische und strategische Lösungen und begleiten bei Bedarf deren Umsetzung."
+          ],
+          "cta": {
+            "label": "Kontakt aufnehmen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "path": "/projektmanagement",
+      "title": "Projektmanagement und Transformation",
+      "seo": {
+        "title": "Projektmanagement & Transformation",
+        "description": "Komplexe Vorhaben strukturieren und Veränderungen erfolgreich umsetzen"
+      },
+      "intro": "Komplexe Vorhaben strukturieren und Veränderungen erfolgreich umsetzen",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Anspruchsvolle Projekte und Transformationsvorhaben erfordern klare Zielsetzungen, geeignete Führungsstrukturen und eine konsequente Steuerung.",
+            "Neben fachlichen und technologischen Aspekten müssen organisatorische Veränderungen, unterschiedliche Interessen und Abhängigkeiten berücksichtigt werden.",
+            "Wir unterstützen Unternehmen bei der Planung, Leitung und Umsetzung komplexer Vorhaben. Dabei verbinden wir methodisches Projektmanagement mit Managementerfahrung und einem ganzheitlichen Verständnis für Organisation und Technologie."
+          ]
+        },
+        {
+          "heading": "Unsere Schwerpunkte",
+          "items": [
+            {
+              "title": "Projektleitung und Projektsteuerung",
+              "text": "Wir übernehmen die operative Leitung von Projekten und stellen eine strukturierte Planung, Steuerung und Berichterstattung sicher. Dazu gehören die Führung der Projektorganisation, die Koordination der Beteiligten sowie das Management von Risiken, Ressourcen und Abhängigkeiten."
+            },
+            {
+              "title": "Programm- und Multiprojektmanagement",
+              "text": "Wir koordinieren zusammenhängende Projekte, schaffen Transparenz über Abhängigkeiten und unterstützen bei der Priorisierung sowie der übergreifenden Steuerung."
+            },
+            {
+              "title": "Organisations- und IT-Transformation",
+              "text": "Wir begleiten die Weiterentwicklung von Organisationen, Geschäftsprozessen, IT-Strukturen und Betriebsmodellen. Dabei berücksichtigen wir sowohl die fachlichen und technologischen Anforderungen als auch die Auswirkungen auf Führung, Mitarbeitende und Zusammenarbeit."
+            },
+            {
+              "title": "Change Management",
+              "text": "Wir unterstützen bei der Gestaltung organisatorischer Veränderungen, der Einbindung relevanter Anspruchsgruppen sowie der Kommunikation und Umsetzung neuer Strukturen und Prozesse."
+            },
+            {
+              "title": "Projekt-Assessments und Stabilisierung",
+              "text": "Wir analysieren Projekte hinsichtlich Zielerreichung, Steuerung, Organisation und Risiken. Auf dieser Grundlage entwickeln wir konkrete Massnahmen zur Stabilisierung und Neuausrichtung."
+            },
+            {
+              "title": "Stakeholder- und Dienstleistermanagement",
+              "text": "Wir koordinieren die Zusammenarbeit zwischen Auftraggebern, internen Fachbereichen, IT-Organisationen und externen Partnern."
+            }
+          ]
+        },
+        {
+          "heading": "Typische Fragestellungen",
+          "items": [
+            "Wie stellen wir die erfolgreiche Umsetzung eines komplexen Vorhabens sicher?",
+            "Benötigen wir externe Unterstützung für die Projekt- oder Programmleitung?",
+            "Wie organisieren wir eine Transformation mit mehreren beteiligten Unternehmen oder Dienstleistern?",
+            "Wie können wir ein kritisches oder verzögertes Projekt stabilisieren?",
+            "Wie stellen wir sicher, dass Veränderungen organisatorisch verankert werden?"
+          ]
+        },
+        {
+          "heading": "Ihr Nutzen",
+          "paragraphs": [
+            "Wir sorgen für eine klare Projektorganisation, transparente Steuerung und eine strukturierte Umsetzung. Dabei legen wir besonderen Wert auf verbindliche Entscheidungen, eine zielgerichtete Zusammenarbeit und den nachhaltigen Nutzen der Veränderungen."
+          ],
+          "cta": {
+            "label": "Kontakt aufnehmen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assessments",
+      "path": "/management-assessments",
+      "title": "Management-Assessments",
+      "seo": {
+        "title": "Management-Assessments & Organisationsanalysen",
+        "description": "Organisationen verstehen. Leistungsfähigkeit beurteilen. Handlungsbedarf erkennen."
+      },
+      "intro": "Organisationen verstehen. Leistungsfähigkeit beurteilen. Handlungsbedarf erkennen.",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Unternehmen und Organisationen müssen ihre Leistungsfähigkeit regelmässig überprüfen und sich verändernden Anforderungen anpassen.",
+            "Die Beurteilung bestehender Strukturen, Führungsmechanismen und Prozesse ist jedoch nicht immer einfach. Historisch gewachsene Organisationen, unterschiedliche Interessen und eingeschränkte interne Ressourcen können eine objektive Einschätzung erschweren.",
+            "Wir führen unabhängige Management-Assessments durch und schaffen Transparenz über die organisatorische und operative Leistungsfähigkeit von Unternehmen, IT-Organisationen und IT-Dienstleistern.",
+            "Unsere Assessments liefern fundierte Entscheidungsgrundlagen und zeigen konkrete Möglichkeiten zur Weiterentwicklung auf."
+          ]
+        },
+        {
+          "heading": "Unsere Schwerpunkte",
+          "items": [
+            {
+              "title": "Organisations-Assessments",
+              "text": "Wir beurteilen die Aufbau- und Ablauforganisation, die Aufgabenverteilung, Rollen, Verantwortlichkeiten und die Zusammenarbeit innerhalb der Organisation."
+            },
+            {
+              "title": "Management- und Governance-Assessments",
+              "text": "Wir analysieren Führungs- und Steuerungsstrukturen, Entscheidungsprozesse sowie die Wirksamkeit bestehender Governance-Mechanismen."
+            },
+            {
+              "title": "IT-Organisations-Assessments",
+              "text": "Wir überprüfen die Leistungsfähigkeit von IT-Organisationen hinsichtlich Führung, Kompetenzen, Prozessen, Betriebsmodellen und Zusammenarbeit mit den Geschäftsbereichen."
+            },
+            {
+              "title": "IT-Dienstleister-Assessments",
+              "text": "Wir beurteilen IT-Dienstleistungsunternehmen hinsichtlich ihrer organisatorischen Aufstellung, betrieblichen Leistungsfähigkeit, Serviceorientierung und Steuerungsmechanismen."
+            },
+            {
+              "title": "Prozess- und Reifegradanalysen",
+              "text": "Wir analysieren ausgewählte Prozesse und Fähigkeiten und beurteilen deren Ausprägung anhand geeigneter Kriterien und Referenzmodelle."
+            },
+            {
+              "title": "Massnahmen- und Entwicklungsplanung",
+              "text": "Wir verdichten die Ergebnisse zu nachvollziehbaren Feststellungen, bewerten Risiken und Entwicklungspotenziale und erarbeiten priorisierte Handlungsempfehlungen."
+            }
+          ]
+        },
+        {
+          "heading": "Unser Vorgehen",
+          "items": [
+            {
+              "title": "1. Auftragsklärung",
+              "text": "Gemeinsam mit dem Auftraggeber definieren wir Zielsetzung, Fragestellungen, Untersuchungsumfang und Bewertungskriterien."
+            },
+            {
+              "title": "2. Analyse",
+              "text": "Wir erheben relevante Informationen durch Dokumentenanalysen, strukturierte Interviews und die Betrachtung bestehender Organisations-, Führungs- und Prozessstrukturen."
+            },
+            {
+              "title": "3. Bewertung",
+              "text": "Wir beurteilen die Erkenntnisse anhand der vereinbarten Kriterien und geeigneter Referenzmodelle. Dabei unterscheiden wir zwischen Stärken, Schwachstellen, Risiken und Entwicklungspotenzialen."
+            },
+            {
+              "title": "4. Handlungsempfehlungen",
+              "text": "Wir bereiten die Ergebnisse managementgerecht auf und erarbeiten konkrete, priorisierte Massnahmen als Grundlage für die weitere Entwicklung."
+            }
+          ]
+        },
+        {
+          "heading": "Typische Anlässe für ein Assessment",
+          "items": [
+            "Strategische oder organisatorische Neuausrichtung",
+            "Wechsel in der Geschäftsleitung oder in Führungsfunktionen",
+            "Wiederkehrende Leistungs- und Qualitätsprobleme",
+            "Veränderungen der IT- oder Sourcing-Strategie",
+            "Unklare Verantwortlichkeiten und Schnittstellen",
+            "Vorbereitung grösserer Transformationsvorhaben",
+            "Unabhängige Standortbestimmung im Auftrag der Geschäftsleitung oder des Verwaltungsrats"
+          ]
+        },
+        {
+          "heading": "Ihr Nutzen",
+          "paragraphs": [
+            "Ein Management-Assessment schafft eine fundierte und unabhängige Sicht auf den Zustand und die Leistungsfähigkeit einer Organisation.",
+            "Sie erhalten eine nachvollziehbare Beurteilung, eine transparente Darstellung des Handlungsbedarfs und konkrete Empfehlungen zur Weiterentwicklung."
+          ],
+          "cta": {
+            "label": "Assessment besprechen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "interim",
+      "path": "/interim-management",
+      "title": "Interim-Management",
+      "seo": {
+        "title": "Interim-Management & Führung auf Zeit",
+        "description": "Führung und Managementverantwortung auf Zeit"
+      },
+      "intro": "Führung und Managementverantwortung auf Zeit",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Unternehmen benötigen in besonderen Situationen zusätzliche Führungskapazität oder spezifische Managementkompetenz.",
+            "Dies kann bei personellen Veränderungen, organisatorischen Neuausrichtungen, anspruchsvollen Transformationsvorhaben oder zur Stabilisierung bestehender Strukturen erforderlich sein.",
+            "Wir übernehmen zeitlich befristete Führungs- und Managementaufgaben und unterstützen Unternehmen dabei, ihre Handlungsfähigkeit sicherzustellen, Veränderungen voranzubringen und tragfähige Strukturen aufzubauen.",
+            "Dabei verbinden wir die strategische Perspektive mit einer aktiven Wahrnehmung operativer Führungsverantwortung."
+          ]
+        },
+        {
+          "heading": "Unsere Schwerpunkte",
+          "items": [
+            {
+              "title": "Interim IT-Management",
+              "text": "Wir übernehmen temporär die Führung von IT-Organisationen, beispielsweise in der Funktion eines IT-Leiters oder CIOs. Dabei stellen wir die operative Steuerung sicher und begleiten die strategische Weiterentwicklung."
+            },
+            {
+              "title": "Management von IT-Dienstleistern",
+              "text": "Wir übernehmen Managementaufgaben in IT-Dienstleistungsunternehmen und unterstützen bei organisatorischen Veränderungen, der Steuerung des Leistungsgeschäfts und der Weiterentwicklung von Führungsstrukturen."
+            },
+            {
+              "title": "Transformationsmanagement",
+              "text": "Wir übernehmen Führungsverantwortung bei organisatorischen und technologischen Veränderungsvorhaben und koordinieren deren Umsetzung."
+            },
+            {
+              "title": "Stabilisierung und Neuausrichtung",
+              "text": "Wir unterstützen Unternehmen in anspruchsvollen Situationen bei der Wiederherstellung klarer Führungs- und Steuerungsstrukturen sowie der Verbesserung ihrer operativen Leistungsfähigkeit."
+            },
+            {
+              "title": "Überbrückung von Führungsvakanzen",
+              "text": "Wir stellen während personeller Übergangsphasen die notwendige Führungskontinuität sicher und schaffen die Voraussetzungen für eine geordnete Übergabe an eine dauerhafte Besetzung."
+            }
+          ]
+        },
+        {
+          "heading": "Typische Einsatzsituationen",
+          "items": [
+            "Eine Führungsposition ist vorübergehend nicht besetzt.",
+            "Eine Organisation befindet sich in einer umfassenden Veränderungsphase.",
+            "Für die Umsetzung strategischer Massnahmen fehlen interne Führungskapazitäten.",
+            "Eine IT-Organisation oder ein Dienstleistungsunternehmen muss stabilisiert oder neu ausgerichtet werden.",
+            "Ein komplexes Vorhaben erfordert zusätzliche Managementkompetenz mit klarer Verantwortung."
+          ]
+        },
+        {
+          "heading": "Unsere Arbeitsweise",
+          "paragraphs": [
+            "Interim-Management erfordert ein rasches Verständnis der Ausgangslage, klare Zielvereinbarungen und eine enge Zusammenarbeit mit den verantwortlichen Führungsgremien.",
+            "Wir übernehmen definierte Führungsaufgaben innerhalb der bestehenden Unternehmensorganisation und legen Wert auf transparente Steuerung, nachvollziehbare Entscheidungen und eine wirksame Zusammenarbeit mit Mitarbeitenden und Anspruchsgruppen.",
+            "Die Übergabe von Verantwortung, Wissen und Ergebnissen an die nachfolgende Organisation ist Bestandteil unseres Mandatsverständnisses."
+          ]
+        },
+        {
+          "heading": "Ihr Nutzen",
+          "paragraphs": [
+            "Sie erhalten erfahrene Managementunterstützung für einen klar definierten Zeitraum. Damit sichern Sie die Führungskontinuität, schaffen zusätzliche Handlungskapazität und können notwendige Veränderungen konsequent umsetzen."
+          ],
+          "cta": {
+            "label": "Interim-Mandat besprechen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "about",
+      "path": "/ueber-mich",
+      "title": "Über mich",
+      "seo": {
+        "title": "Samuel Schäpper – Über mich",
+        "description": "Samuel Schäpper – Gründer und Geschäftsführer der Schäpper Consulting GmbH"
+      },
+      "intro": "Samuel Schäpper – Gründer und Geschäftsführer der Schäpper Consulting GmbH",
+      "sections": [
+        {
+          "heading": "Erfahrung. Unabhängigkeit. Verantwortung.",
+          "paragraphs": [
+            "Im Verlauf meiner beruflichen Tätigkeit habe ich umfassende Erfahrungen in der Führung und Weiterentwicklung von IT-Organisationen, im Management komplexer Vorhaben sowie in der Gestaltung von Governance- und Betriebsmodellen gesammelt.",
+            "Dabei habe ich die Herausforderungen moderner Unternehmen aus unterschiedlichen Perspektiven kennengelernt – sowohl in strategischen und organisatorischen Fragestellungen als auch in der operativen Führungs- und Umsetzungsverantwortung.",
+            "Ein besonderer Schwerpunkt meiner Erfahrung liegt in der Finanzindustrie und in regulierten Unternehmensumfeldern. Die Anforderungen an Informationssicherheit, regulatorische Konformität, betriebliche Stabilität und die Zusammenarbeit mit IT-Dienstleistern haben meine berufliche Tätigkeit wesentlich geprägt.",
+            "Mit der Gründung der Schäpper Consulting GmbH habe ich mich entschieden, meine Erfahrung und Kompetenzen als unabhängiger Berater und Manager Unternehmen unterschiedlicher Branchen zur Verfügung zu stellen."
+          ]
+        },
+        {
+          "heading": "Mein Beratungsverständnis",
+          "paragraphs": [
+            "Ich bin überzeugt, dass erfolgreiche Veränderungen ein fundiertes Verständnis der Ausgangslage, klare Zielsetzungen und eine konsequente Umsetzung erfordern.",
+            "Deshalb lege ich Wert darauf, Fragestellungen ganzheitlich zu betrachten, bestehende Annahmen kritisch zu hinterfragen und unterschiedliche Perspektiven einzubeziehen.",
+            "Meine Arbeitsweise ist strukturiert, analytisch und pragmatisch. Ich möchte Zusammenhänge verstehen, wesentliche Herausforderungen erkennen und gemeinsam mit meinen Auftraggebern Lösungen entwickeln, die im Unternehmensalltag funktionieren.",
+            "Dabei ist mir eine offene und partnerschaftliche Zusammenarbeit ebenso wichtig wie eine klare Kommunikation und ein verbindlicher Umgang mit übernommenen Aufgaben."
+          ]
+        },
+        {
+          "heading": "Von der Analyse bis zur Umsetzung",
+          "paragraphs": [
+            "Eine gute Analyse und ein fundiertes Konzept schaffen wichtige Voraussetzungen für erfolgreiche Entscheidungen. Nachhaltige Verbesserungen entstehen jedoch erst durch die Umsetzung.",
+            "Deshalb beschränkt sich mein Leistungsverständnis nicht auf die beratende Tätigkeit.",
+            "Je nach Aufgabenstellung übernehme ich auch die Verantwortung für Projekte, Transformationsvorhaben oder zeitlich befristete Managementfunktionen."
+          ]
+        },
+        {
+          "heading": "Zusammenarbeit auf Augenhöhe",
+          "paragraphs": [
+            "Ich arbeite direkt mit den verantwortlichen Personen und Organisationen meiner Auftraggeber zusammen.",
+            "Dabei ist es mein Ziel, einen konkreten Beitrag zur Lösung anspruchsvoller Fragestellungen und zur nachhaltigen Weiterentwicklung von Unternehmen zu leisten.",
+            "Ich freue mich darauf, Sie und Ihre Herausforderungen kennenzulernen.",
+            "Samuel Schäpper"
+          ],
+          "cta": {
+            "label": "Kontakt aufnehmen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "expertise",
+      "path": "/expertise",
+      "title": "Branchen und Expertise",
+      "seo": {
+        "title": "Branchen & Expertise",
+        "description": "Branchenübergreifende Beratung mit fundierter Erfahrung in der Finanzindustrie"
+      },
+      "intro": "Branchenübergreifende Beratung mit fundierter Erfahrung in der Finanzindustrie",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "Viele unternehmerische Herausforderungen sind branchenübergreifend vergleichbar: Organisationen müssen wirksam geführt, Veränderungen erfolgreich umgesetzt und technologische Entwicklungen sinnvoll in bestehende Strukturen integriert werden.",
+            "Gleichzeitig unterscheiden sich die Rahmenbedingungen einzelner Branchen hinsichtlich Regulierung, Sicherheit, Betriebsstabilität und Komplexität.",
+            "Wir verbinden übergreifende Management- und IT-Kompetenz mit vertieften Erfahrungen aus der Finanzindustrie und regulierten Unternehmensumfeldern."
+          ]
+        },
+        {
+          "heading": "Finanzindustrie und regulierte Unternehmen",
+          "paragraphs": [
+            "Banken und Finanzdienstleister stehen vor besonderen Anforderungen an Governance, Informationssicherheit, IT-Risikomanagement und die Steuerung ausgelagerter Dienstleistungen.",
+            "Wir verfügen über fundierte Erfahrung mit diesen Herausforderungen und unterstützen bei der Weiterentwicklung von IT-Organisationen, Betriebsmodellen, Steuerungsstrukturen und der Zusammenarbeit mit Dienstleistern.",
+            "Unsere Leistungen reichen von der strategischen IT-Beratung über unabhängige Assessments bis zur Übernahme von Projekt- und Managementverantwortung."
+          ]
+        },
+        {
+          "heading": "Gesundheitswesen",
+          "paragraphs": [
+            "Organisationen im Gesundheitswesen stehen vor vielfältigen Herausforderungen bei der Digitalisierung, Informationssicherheit, IT-Steuerung und der Zusammenarbeit mit internen und externen Leistungserbringern.",
+            "Wir unterstützen bei der Gestaltung geeigneter Organisations- und Betriebsmodelle sowie bei der Führung und Umsetzung komplexer Veränderungsvorhaben.",
+            "Dabei bringen wir unsere Erfahrung aus anspruchsvollen, sicherheitskritischen und regulierten Unternehmensumfeldern ein."
+          ]
+        },
+        {
+          "heading": "Kleine und mittlere Unternehmen",
+          "paragraphs": [
+            "KMU benötigen wirksame Führungs- und Organisationsstrukturen, die zu ihrer Grösse, ihren Ressourcen und ihrem Geschäftsmodell passen.",
+            "Wir unterstützen bei der Weiterentwicklung der IT, der Gestaltung von Verantwortlichkeiten und Prozessen sowie bei anspruchsvollen Projekten und organisatorischen Veränderungen.",
+            "Unsere Lösungen orientieren sich an den konkreten Anforderungen und wirtschaftlichen Möglichkeiten des Unternehmens."
+          ]
+        },
+        {
+          "heading": "IT-Dienstleistungsunternehmen",
+          "paragraphs": [
+            "IT-Dienstleister müssen die Anforderungen ihrer Kunden zuverlässig erfüllen und gleichzeitig ihre Organisation, Prozesse, Kompetenzen und Leistungen wirtschaftlich weiterentwickeln.",
+            "Wir unterstützen IT-Dienstleistungsunternehmen bei Management-Assessments, der Gestaltung von Betriebsmodellen und Governance-Strukturen, organisatorischen Veränderungen sowie mit temporärer Managementunterstützung."
+          ]
+        },
+        {
+          "heading": "Unsere Haltung",
+          "paragraphs": [
+            "Branchenkenntnisse sind wertvoll. Entscheidend ist jedoch, die spezifische Ausgangslage des jeweiligen Unternehmens zu verstehen.",
+            "Deshalb übertragen wir Erfahrungen und bewährte Ansätze nicht schematisch, sondern passen sie an die Organisation, ihre Anforderungen und ihre Zielsetzungen an."
+          ],
+          "cta": {
+            "label": "Kontakt aufnehmen",
+            "href": "/kontakt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "insights",
+      "path": "/einblicke",
+      "title": "Einblicke",
+      "seo": {
+        "title": "Fachbeiträge zu IT & Management",
+        "description": "Perspektiven zu IT, Organisation und Management"
+      },
+      "intro": "Perspektiven zu IT, Organisation und Management",
+      "sections": [
+        {
+          "heading": "Einführung",
+          "paragraphs": [
+            "In dieser Rubrik greifen wir ausgewählte Fragestellungen aus den Bereichen IT-Governance, Unternehmensorganisation, Transformation und Management auf.",
+            "Im Mittelpunkt stehen praktische Erfahrungen, grundlegende Zusammenhänge und Überlegungen zur erfolgreichen Gestaltung und Weiterentwicklung von Organisationen."
+          ]
+        },
+        {
+          "heading": "Fachbeiträge",
+          "items": [
+            {
+              "title": "Wer steuert die IT, wenn sie ausgelagert ist?",
+              "text": "Die Auslagerung von IT-Leistungen verändert die Aufgaben und Verantwortlichkeiten innerhalb eines Unternehmens. Eine wirksame Retained-IT-Organisation und klare Governance-Strukturen bilden die Grundlage für eine erfolgreiche Zusammenarbeit mit externen Dienstleistern.",
+              "href": "/einblicke/wer-steuert-die-it",
+              "status": "draft_ready"
+            },
+            {
+              "title": "Ein Target Operating Model ist mehr als ein Organigramm",
+              "text": "Ein funktionierendes Betriebsmodell definiert nicht nur organisatorische Einheiten, sondern insbesondere Rollen, Verantwortlichkeiten, Prozesse, Entscheidungswege und Schnittstellen. Wir beleuchten die wesentlichen Elemente eines wirksamen Target Operating Models.",
+              "status": "planned"
+            },
+            {
+              "title": "Wann ist ein Management-Assessment sinnvoll?",
+              "text": "Strategische Veränderungen, Leistungsprobleme oder die Neuausrichtung einer Organisation werfen häufig grundlegende Fragen auf. Ein unabhängiges Management-Assessment kann helfen, die Ausgangslage objektiv zu beurteilen und fundierte Entscheidungen vorzubereiten.",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "path": "/kontakt",
+      "title": "Kontakt",
+      "seo": {
+        "title": "Kontakt – Schäpper Consulting",
+        "description": "Lassen Sie uns ins Gespräch kommen"
+      },
+      "intro": "Lassen Sie uns ins Gespräch kommen",
+      "sections": [
+        {
+          "heading": "Kontaktaufnahme",
+          "paragraphs": [
+            "Sie stehen vor einer strategischen, organisatorischen oder technologischen Herausforderung? Sie suchen unabhängige Beratung, Unterstützung für ein anspruchsvolles Vorhaben oder zusätzliche Managementkompetenz?",
+            "Gerne tauschen wir uns mit Ihnen über Ihre Ausgangslage und die Möglichkeiten einer Zusammenarbeit aus.",
+            "Wir freuen uns auf Ihre Kontaktaufnahme."
+          ],
+          "cta": {
+            "label": "E-Mail schreiben",
+            "href": "mailto:samuel@schaepper.com"
+          }
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "outsourcing-governance",
+      "slug": "wer-steuert-die-it",
+      "path": "/einblicke/wer-steuert-die-it",
+      "status": "draft_ready",
+      "title": "Wer steuert die IT, wenn sie ausgelagert ist?",
+      "category": [
+        "IT-Governance",
+        "Organisation",
+        "Outsourcing"
+      ],
+      "sections": [
+        {
+          "heading": "Einleitung",
+          "paragraphs": [
+            "Die Auslagerung von IT-Leistungen ist für viele Unternehmen ein wichtiger Bestandteil ihrer IT-Strategie. Sie ermöglicht den Zugang zu spezialisiertem Know-how, professionellen Betriebsstrukturen und skalierbaren Dienstleistungen.",
+            "Gleichzeitig verändert sich dadurch die Rolle der internen IT grundlegend. Statt Systeme selbst zu betreiben, muss das Unternehmen zunehmend Leistungen steuern, Risiken überwachen und die Ausrichtung der IT an den geschäftlichen Anforderungen sicherstellen."
+          ]
+        },
+        {
+          "heading": "Verantwortung lässt sich nicht auslagern",
+          "paragraphs": [
+            "Mit der Auslagerung operativer IT-Leistungen werden Aufgaben an einen externen Dienstleister übertragen. Die Verantwortung für eine angemessene Steuerung der IT, für wesentliche Risiken und für die Erfüllung regulatorischer Anforderungen verbleibt jedoch beim auslagernden Unternehmen.",
+            "Das stellt insbesondere kleinere Unternehmen vor Herausforderungen. Einerseits sollen die Vorteile des Outsourcings genutzt werden. Andererseits müssen genügend interne Kompetenzen vorhanden sein, um die Leistungen und Risiken des Dienstleisters beurteilen und steuern zu können."
+          ]
+        },
+        {
+          "heading": "Die Rolle der Retained IT",
+          "paragraphs": [
+            "Unter Retained IT versteht man jene IT-Funktionen und Kompetenzen, die trotz Auslagerung im Unternehmen verbleiben."
+          ],
+          "items": [
+            "Die Ausrichtung der IT an der Unternehmensstrategie und den geschäftlichen Anforderungen.",
+            "Die Definition und Steuerung von IT-Governance und wesentlichen IT-Risiken.",
+            "Die Verantwortung für die Enterprise-Architektur und die langfristige Entwicklung der IT-Landschaft.",
+            "Die Steuerung der externen IT-Dienstleister sowie die Überwachung vereinbarter Leistungen.",
+            "Die Abstimmung zwischen Geschäftsbereichen, IT-Organisation und externen Partnern."
+          ]
+        },
+        {
+          "heading": "Grösse ist nicht entscheidend",
+          "paragraphs": [
+            "Eine wirksame Retained IT muss nicht zwingend gross sein. Entscheidend sind die richtige Kompetenz, eindeutige Entscheidungsbefugnisse und eine funktionierende Zusammenarbeit mit den Dienstleistern."
+          ]
+        },
+        {
+          "heading": "Klare Verantwortlichkeiten als Erfolgsfaktor",
+          "paragraphs": [
+            "In der Praxis entstehen Schwierigkeiten häufig dort, wo Verantwortlichkeiten nicht eindeutig geregelt sind.",
+            "Wer entscheidet über eine strategische Veränderung der IT-Architektur? Wer priorisiert Anforderungen aus den Geschäftsbereichen? Wer beurteilt die Risiken einer neuen Lösung? Und wer trägt die Verantwortung, wenn mehrere Dienstleister an einer Leistung beteiligt sind?",
+            "Solche Fragen sollten nicht erst im Konfliktfall geklärt werden.",
+            "Ein geeignetes Target Operating Model schafft die notwendigen Grundlagen. Es beschreibt Rollen, Verantwortlichkeiten, Prozesse, Entscheidungswege und Schnittstellen zwischen dem Unternehmen und seinen Dienstleistern."
+          ]
+        },
+        {
+          "heading": "Governance muss wirksam sein",
+          "paragraphs": [
+            "Ein Betriebsmodell ist nur dann erfolgreich, wenn die darin definierten Strukturen und Verantwortlichkeiten im Alltag auch gelebt werden.",
+            "Dazu braucht es geeignete Steuerungsgremien, transparente Leistungsinformationen, nachvollziehbare Entscheidungen und einen regelmässigen Austausch zwischen den Beteiligten.",
+            "Governance sollte dabei nicht als zusätzliche Bürokratie verstanden werden. Richtig gestaltet, schafft sie Orientierung, reduziert Risiken und ermöglicht effizientere Entscheidungen."
+          ]
+        },
+        {
+          "heading": "Fazit",
+          "paragraphs": [
+            "Ein erfolgreiches IT-Outsourcing basiert nicht allein auf einem guten Dienstleistungsvertrag. Genauso wichtig ist die Fähigkeit des Unternehmens, die ausgelagerten Leistungen wirksam zu steuern.",
+            "Eine klar definierte Retained IT, eindeutige Verantwortlichkeiten und ein auf die Unternehmensbedürfnisse abgestimmtes Betriebsmodell bilden dafür die Grundlage.",
+            "Schäpper Consulting unterstützt Unternehmen bei der Analyse, Gestaltung und Weiterentwicklung ihrer IT-Governance, Retained-IT-Organisation und Sourcing-Modelle."
+          ]
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "links": [
+      {
+        "label": "Impressum",
+        "href": "/impressum",
+        "status": "legal_text_required"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "/datenschutz",
+        "status": "legal_text_required"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/kontakt"
+      }
+    ]
+  },
+  "publication_checklist": [
+    "Vollständige Firmendaten im Impressum prüfen",
+    "Datenschutzerklärung passend zu Hosting und Website-Funktionen erstellen",
+    "Porträt und freigegebene Bilder bereitstellen",
+    "LinkedIn-Link und optional Telefonnummer ergänzen",
+    "SEO-Metadaten redaktionell prüfen",
+    "Artikelstatus vor Veröffentlichung kontrollieren"
+  ],
+  "internal_notes": {
+    "optional_fifth_business_line": "Softwareentwicklung, -betrieb und -vertrieb ist derzeit nicht für die öffentliche Website vorgesehen; bewusst nicht in Seiteninhalten enthalten."
+  }
+}

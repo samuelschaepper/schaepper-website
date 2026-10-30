@@ -1,0 +1,31 @@
+---
+import site from '../data/website.json';
+const { title, description, path='/', robots='index,follow' } = Astro.props;
+const canonical = new URL(path === '/' ? '/' : path.replace(/\/$/,'')+'/', 'https://www.schaepper.com').toString();
+const menu = site.navigation;
+---
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="theme-color" content="#172A3A" />
+<meta name="description" content={description} />
+<meta name="robots" content={robots} />
+<link rel="canonical" href={canonical} />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<title>{title}</title>
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonical} />
+<style is:global>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;color:#172A3A;background:#fff;font-synthesis:none}*{box-sizing:border-box}body{margin:0}a{color:inherit}a:hover{color:#286079}button{font:inherit}p{line-height:1.76;color:#415566;margin:.6rem 0 1.2rem}h1,h2,h3{letter-spacing:-.025em;line-height:1.18}h1{font-size:clamp(2.25rem,5vw,4.25rem);max-width:920px;margin:0 0 1.15rem}h2{font-size:clamp(1.5rem,2.8vw,2.3rem);margin:0 0 1.25rem}h3{font-size:1.12rem;margin:.25rem 0 .65rem}.wrap{max-width:1120px;margin:auto;padding:0 28px}.topbar{border-bottom:1px solid #e8edef;background:#fff}.nav{min-height:83px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{text-decoration:none;font-weight:800;letter-spacing:.035em;font-size:1.02rem;line-height:1.2}.brand span{display:block;color:#4E778B;font-size:.65rem;font-weight:600;letter-spacing:.19em;margin-top:5px}.navlinks{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.navlinks a{font-size:.88rem;text-decoration:none;font-weight:550}.navlinks a[aria-current="page"]{color:#35708d}.button{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:650;padding:13px 20px;background:#172A3A;color:white!important;border-radius:5px;margin-top:14px;transition:background .15s}.button:hover{background:#335b73}.button.light{background:white;color:#172A3A!important}.hero{background:#172A3A;color:white;padding:90px 0 105px}.hero h1{color:white}.hero p{color:#d8e4eb;font-size:1.16rem;max-width:760px}.eyebrow{display:block;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;font-weight:750;color:#4E778B;margin-bottom:19px}.hero .eyebrow{color:#adc6d4}.intro{padding:75px 0 42px}.intro p{font-size:1.16rem;max-width:830px}.section{padding:65px 0;border-top:1px solid #e9eef1}.section:nth-of-type(even){background:#f8fafb}.section p{max-width:880px}.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:23px}.tile{background:#fff;border:1px solid #dde5e9;padding:28px;border-radius:8px}.tile p{font-size:.96rem;margin:0 0 8px}.tile a{font-size:.9rem;text-decoration:none;font-weight:700;color:#286079}.list{padding-left:1.2rem;line-height:1.8;color:#415566}.list li{padding-bottom:8px}.foot{background:#172A3A;color:#e5edf2;padding:45px 0;margin-top:40px}.foot p,.foot a{color:#c4d3dd}.foot a{font-size:.88rem}.footnav{display:flex;gap:22px;flex-wrap:wrap;margin-top:20px}.footnote{font-size:.76rem;color:#93acbc!important}.notice{padding:15px 18px;background:#fff5e8;border-left:3px solid #ae864b;font-size:.9rem;color:#644e31}.article{max-width:860px}.article .section{padding:32px 0}.contact-link{font-size:1.1rem;font-weight:650;color:#286079}.main-content{min-height:55vh}@media(max-width:880px){.nav{align-items:flex-start;flex-direction:column;padding-top:19px;padding-bottom:20px}.navlinks{gap:12px 19px}.hero{padding:65px 0}.tiles{grid-template-columns:1fr}.section{padding:48px 0}.wrap{padding:0 19px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav"><a class="brand" href="/">SCHÄPPER CONSULTING<span>GMBH</span></a><nav class="navlinks" aria-label="Hauptnavigation">{menu.map((item)=><a href={item.href} aria-current={path===item.href?'page':undefined}>{item.label}</a>)}</nav></div></header>
+<main class="main-content"><slot /></main>
+<footer class="foot"><div class="wrap"><strong>Schäpper Consulting GmbH</strong><p>Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.</p><div class="footnav"><a href="/kontakt">Kontakt</a><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="mailto:samuel@schaepper.com">samuel@schaepper.com</a></div><p class="footnote">© {new Date().getFullYear()} Schäpper Consulting GmbH · Sevelen, Schweiz</p></div></footer>
+</body>
+</html>

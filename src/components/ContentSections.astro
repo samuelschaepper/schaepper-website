@@ -1,0 +1,4 @@
+---
+const { sections=[] }=Astro.props;
+---
+{sections.map((section,index)=><section class="section"><div class="wrap"><span class="eyebrow">{String(index+1).padStart(2,'0')}</span><h2>{section.heading}</h2>{section.paragraphs?.map((para)=><p>{para}</p>)}{section.items && <div class={section.items.some(i=>typeof i==='string')?'':'tiles'}>{section.items.some(i=>typeof i==='string')?<ul class="list">{section.items.map(i=><li>{typeof i==='string'?i:i.title}</li>)}</ul>:section.items.map((i)=><div class="tile"><h3>{i.title}</h3><p>{i.text}</p>{i.href && !i.status?.includes('planned') && <a href={i.href}>Mehr erfahren →</a>}{i.status?.includes('planned') && <small>In Vorbereitung</small>}</div>)}</div>}{section.cta?.href && <a class="button" href={section.cta.href}>{section.cta.label}</a>}</div></section>)}

@@ -1,0 +1,8 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContentSections from '../components/ContentSections.astro';
+import data from '../data/website.json';
+export function getStaticPaths(){return data.pages.filter(p=>p.path!=='/').map(page=>({params:{slug:page.path.slice(1)},props:{page}}));}
+const {page}=Astro.props;
+---
+<BaseLayout title={page.seo.title} description={page.seo.description} path={page.path}><div class="hero"><div class="wrap"><span class="eyebrow">Schäpper Consulting</span><h1>{page.title}</h1><p>{page.intro}</p></div></div><ContentSections sections={page.sections} />{page.id==='contact' && <section class="section"><div class="wrap"><h2>Schäpper Consulting GmbH</h2><p>Samuel Schäpper · Gründer und Geschäftsführer<br/>9475 Sevelen · Schweiz</p><a class="contact-link" href="mailto:samuel@schaepper.com">samuel@schaepper.com</a></div></section>}</BaseLayout>
