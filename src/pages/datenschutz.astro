@@ -1,4 +1,40 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Datenschutz | Schäpper Consulting" description="Datenschutz der Schäpper Consulting GmbH" path="/datenschutz" robots="noindex,nofollow"><div class="wrap intro"><h1>Datenschutz</h1><div class="notice"><strong>Vor Veröffentlichung vervollständigen:</strong> Diese Seite enthält noch keinen rechtsgeprüften Pflichttext und muss vor der öffentlichen Produktivsetzung ergänzt werden.</div><p>Schäpper Consulting GmbH<br/>9475 Sevelen, Schweiz<br/><a href="mailto:samuel@schaepper.com">samuel@schaepper.com</a></p></div></BaseLayout>
+<BaseLayout title="Datenschutzerklärung | Schäpper Consulting" description="Informationen zum Datenschutz bei Schäpper Consulting GmbH" path="/datenschutz" robots="noindex,follow">
+  <div class="hero"><div class="wrap"><span class="eyebrow">Rechtliches</span><h1>Datenschutzerklärung</h1><p>Informationen zur Bearbeitung von Personendaten beim Besuch unserer Website und bei der Kontaktaufnahme.</p></div></div>
+  <div class="wrap privacy">
+    <p class="notice"><strong>Entwurf zur Freigabe.</strong> Vor Veröffentlichung sind insbesondere Geschäftsanschrift, tatsächliche Aufbewahrungsfristen, Cookies und Auslandbekanntgaben zu verifizieren.</p>
+    <p><small>Stand: 1. November 2026</small></p>
+    <h2>1. Verantwortliche Stelle</h2>
+    <p><strong>Schäpper Consulting GmbH</strong><br />9475 Sevelen, Schweiz<br /><a href="mailto:info@schaepper.com">info@schaepper.com</a></p>
+    <p><em>Vollständige Geschäftsanschrift vor Veröffentlichung ergänzen.</em></p>
+    <h2>2. Allgemeines</h2>
+    <p>Wir bearbeiten Personendaten im Zusammenhang mit unserer Website, Anfragen und geschäftlichen Beziehungen unter Beachtung des Schweizer Datenschutzgesetzes. Soweit im Einzelfall anwendbar, berücksichtigen wir auch die Datenschutz-Grundverordnung der EU.</p>
+    <h2>3. Websitebetrieb</h2>
+    <p>Bei Websitezugriffen können technische Daten wie IP-Adresse, Zeitpunkt, angeforderte Inhalte, Browserinformationen und Sicherheitsereignisse verarbeitet werden. Dies dient der Bereitstellung, Fehlerbehebung und IT-Sicherheit. Die Website wird über Microsoft Azure Static Web Apps betrieben.</p>
+    <h2>4. Kontaktformular und E-Mail</h2>
+    <p>Bei einer Kontaktanfrage bearbeiten wir Ihren Namen, gegebenenfalls Ihr Unternehmen, Ihre E-Mail-Adresse, die Kategorie des Anliegens sowie die Nachricht. Wir verwenden diese Daten zur Bearbeitung Ihrer Anfrage und gegebenenfalls zur Vorbereitung einer Zusammenarbeit. Das Formular wird über Azure Functions und Microsoft Graph verarbeitet; die Zustellung erfolgt an unser geschäftliches Exchange-Online-Postfach. Bitte übermitteln Sie keine Passwörter oder besonders schützenswerten Daten.</p>
+    <h2>5. Schutz vor Missbrauch</h2>
+    <p>Zum Schutz des Formulars nutzen wir Cloudflare Turnstile. Cloudflare kann dabei technische Browser-, Geräte- und Verbindungsdaten einschliesslich IP-Adressen bearbeiten. Weitere Informationen: <a href="https://www.cloudflare.com/turnstile-privacy-policy/" rel="noopener noreferrer">Datenschutzhinweise von Cloudflare Turnstile</a>.</p>
+    <p>Wiederholte Formularanfragen werden zusätzlich durch eine technische Anfragebegrenzung in Azure Table Storage kontrolliert. Hierfür speichern wir Zähler pro Zeitfenster sowie kryptografisch pseudonymisierte Kennungen der angegebenen E-Mail-Adresse. Der Nachrichtentext wird nicht im Rate-Limit-Speicher abgelegt.</p>
+    <h2>6. Dienstleister und Auslandbearbeitung</h2>
+    <p>Wir nutzen insbesondere Microsoft (Azure, Microsoft 365 und Application Insights) sowie Cloudflare (Turnstile). Je nach Dienst und Vertragsgestaltung kann eine Bearbeitung von Personendaten oder ein Zugriff darauf im Ausland erfolgen. Vor Veröffentlichung ergänzen wir die konkreten Empfängerstaaten und die gegebenenfalls erforderlichen Garantien anhand der Vertrags- und Dienstunterlagen.</p>
+    <h2>7. Aufbewahrung</h2>
+    <p>Kontaktanfragen und geschäftliche Korrespondenz speichern wir so lange, wie dies für den jeweiligen Zweck oder gesetzliche Pflichten erforderlich ist. Technische Protokolle werden gemäss den konfigurierten Aufbewahrungsfristen verarbeitet. Die konkreten Fristen sind vor Veröffentlichung zu prüfen und zu ergänzen.</p>
+    <h2>8. Datensicherheit</h2>
+    <p>Wir setzen angemessene technische und organisatorische Sicherheitsmassnahmen ein. Dazu gehören insbesondere verschlüsselte Datenübertragung, rollenbasierte Zugriffsrechte, Managed Identities, Schutz vor automatisierten Anfragen und technische Überwachung.</p>
+    <h2>9. Cookies und ähnliche Technologien</h2>
+    <p>Für den technischen Betrieb und die Absicherung der Website können Cookies oder vergleichbare Speichermechanismen eingesetzt werden. Eine Prüfung der tatsächlich eingesetzten Technologien und gegebenenfalls erforderlicher Einwilligungen erfolgt vor der Veröffentlichung.</p>
+    <h2>10. Rechte betroffener Personen</h2>
+    <p>Im Rahmen des anwendbaren Rechts können Sie insbesondere Auskunft, Berichtigung und gegebenenfalls Löschung Ihrer Personendaten verlangen. Anfragen richten Sie an <a href="mailto:info@schaepper.com">info@schaepper.com</a>. Gegebenenfalls können Sie sich auch an die zuständige Datenschutzaufsichtsbehörde wenden.</p>
+    <h2>11. Änderungen</h2>
+    <p>Wir können diese Datenschutzerklärung bei Änderungen der rechtlichen oder tatsächlichen Verhältnisse aktualisieren. Massgeblich ist die jeweils veröffentlichte Fassung.</p>
+  </div>
+</BaseLayout>
+<style>
+.privacy{max-width:950px;padding-top:48px;padding-bottom:75px}
+.privacy h2{font-size:1.45rem;margin:2.4rem 0 .7rem}
+.privacy p{max-width:850px}
+.privacy a{color:#286079;text-decoration:underline;text-underline-offset:3px}
+</style>
