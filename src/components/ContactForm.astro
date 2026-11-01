@@ -1,0 +1,47 @@
+---
+const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+---
+<section class="section"><div class="wrap contact-area">
+  <h2>Kontaktformular</h2>
+  <p>Wir freuen uns auf Ihre Nachricht. Pflichtfelder sind mit * gekennzeichnet.</p>
+  {siteKey ? (
+    <form id="contactForm" novalidate>
+      <label>Vorname und Name *<input name="name" maxlength="120" autocomplete="name" required /></label>
+      <label>Unternehmen<input name="company" maxlength="120" autocomplete="organization" /></label>
+      <label>E-Mail-Adresse *<input name="email" type="email" maxlength="254" autocomplete="email" required /></label>
+      <label>Anliegen *<select name="topic" required><option value="">Bitte auswählen</option><option>IT-Beratung</option><option>Projektmanagement und Transformation</option><option>Management-Assessments</option><option>Interim-Management</option><option>Allgemeine Anfrage</option></select></label>
+      <label>Nachricht *<textarea name="message" minlength="10" maxlength="3000" rows="7" required></textarea></label>
+      <div class="trap" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off" /></label></div>
+      <div class="cf-turnstile" data-sitekey={siteKey}></div>
+      <p class="form-small">Bitte übermitteln Sie keine Passwörter oder besonders schützenswerten Daten. Beachten Sie unsere <a href="/datenschutz">Datenschutzhinweise</a>.</p>
+      <button class="button" type="submit" id="submitButton">Nachricht senden</button>
+      <p id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  ) : (<p>Das Kontaktformular wird derzeit vorbereitet.</p>)}
+</div></section>
+{siteKey && <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>}
+<script>
+  const form = document.querySelector<HTMLFormElement>('#contactForm');
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const status = document.querySelector<HTMLElement>('#formStatus');
+    const button = document.querySelector<HTMLButtonElement>('#submitButton');
+    if (!status || !button || !form.reportValidity()) return;
+    const data = new FormData(form);
+    const turnstileToken = String(data.get('cf-turnstile-response') || '');
+    if (!turnstileToken) { status.textContent = 'Bitte schliessen Sie die Sicherheitsprüfung ab.'; return; }
+    const payload = Object.fromEntries(['name','company','email','topic','message','website'].map(k => [k, String(data.get(k) || '')]));
+    status.textContent = 'Nachricht wird übermittelt …'; button.disabled = true;
+    try {
+      const response = await fetch('/api/contact', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({...payload, turnstileToken}) });
+      const result = await response.json();
+      status.textContent = result.message || 'Die Anfrage konnte nicht verarbeitet werden.';
+      if (response.ok) form.reset();
+      (window as any).turnstile?.reset?.();
+    } catch { status.textContent = 'Verbindung fehlgeschlagen. Bitte versuchen Sie es später erneut.'; }
+    finally { button.disabled = false; }
+  });
+</script>
+<style>
+.contact-area{max-width:760px}.contact-area form{display:grid;gap:16px}.contact-area label{display:grid;gap:6px;font-weight:600}.contact-area input,.contact-area select,.contact-area textarea{font:inherit;border:1px solid #b5c5cd;border-radius:5px;padding:12px;background:#fff;width:100%;color:#172A3A}.contact-area textarea{resize:vertical}.contact-area button{border:0;cursor:pointer;justify-self:start}.contact-area button:disabled{opacity:.6;cursor:wait}.form-small{font-size:.86rem}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}#formStatus{font-weight:600}
+</style>
