@@ -35,7 +35,7 @@
     "postal_code": "9475",
     "city": "Sevelen",
     "country": "Schweiz",
-    "email": "samuel@schaepper.com",
+    "email": "info@schaepper.com",
     "phone": null,
     "linkedin": null
   },
@@ -709,7 +709,7 @@
           ],
           "cta": {
             "label": "E-Mail schreiben",
-            "href": "mailto:samuel@schaepper.com"
+            "href": "mailto:info@schaepper.com"
           }
         }
       ]
