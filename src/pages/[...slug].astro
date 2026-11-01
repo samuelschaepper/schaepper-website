@@ -7,7 +7,7 @@ import data from '../data/website.json';
 
 export function getStaticPaths() {
   return data.pages
-    .filter(page => page.path !== '/')
+    .filter(page => page.path !== '/' && !page.path.startsWith('/einblicke'))
     .map(page => ({
       params: { slug: page.path.slice(1) },
       props: { page }
@@ -44,12 +44,7 @@ const { page } = Astro.props;
             <br />
             9475 Sevelen · Schweiz
           </p>
-          <a
-            class="contact-link"
-            href="mailto:info@schaepper.com"
-          >
-            info@schaepper.com
-          </a>
+          <p>info@schaepper.com</p>
         </div>
       </section>
     </>

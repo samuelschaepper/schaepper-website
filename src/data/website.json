@@ -35,7 +35,7 @@
     "postal_code": "9475",
     "city": "Sevelen",
     "country": "Schweiz",
-    "email": "samuel@schaepper.com",
+    "email": "info@schaepper.com",
     "phone": null,
     "linkedin": null
   },
@@ -73,10 +73,6 @@
     {
       "label": "Expertise",
       "href": "/expertise"
-    },
-    {
-      "label": "Einblicke",
-      "href": "/einblicke"
     },
     {
       "label": "Kontakt",
@@ -706,11 +702,7 @@
             "Sie stehen vor einer strategischen, organisatorischen oder technologischen Herausforderung? Sie suchen unabhängige Beratung, Unterstützung für ein anspruchsvolles Vorhaben oder zusätzliche Managementkompetenz?",
             "Gerne tauschen wir uns mit Ihnen über Ihre Ausgangslage und die Möglichkeiten einer Zusammenarbeit aus.",
             "Wir freuen uns auf Ihre Kontaktaufnahme."
-          ],
-          "cta": {
-            "label": "E-Mail schreiben",
-            "href": "mailto:samuel@schaepper.com"
-          }
+          ]
         }
       ]
     }
