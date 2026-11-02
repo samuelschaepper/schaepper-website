@@ -26,6 +26,6 @@ const menu = site.navigation;
 <body>
 <header class="topbar"><div class="wrap nav"><a class="brand" href="/">SCHÄPPER CONSULTING<span>GMBH</span></a><nav class="navlinks" aria-label="Hauptnavigation">{menu.map((item)=><a href={item.href} aria-current={path===item.href?'page':undefined}>{item.label}</a>)}</nav></div></header>
 <main class="main-content"><slot /></main>
-<footer class="foot"><div class="wrap"><strong>Schäpper Consulting GmbH</strong><p>Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.</p><div class="footnav"><a href="/kontakt">Kontakt</a><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a><a href="mailto:info@schaepper.com">info@schaepper.com</a></div><p class="footnote">© {new Date().getFullYear()} Schäpper Consulting GmbH · Sevelen, Schweiz</p></div></footer>
+<footer class="foot"><div class="wrap"><strong>Schäpper Consulting GmbH</strong><p>Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.</p><div class="footnav"><a href="/kontakt">Kontakt</a><a href="/impressum">Impressum</a><a href="/datenschutz">Datenschutz</a></div><p class="footnote">© {new Date().getFullYear()} Schäpper Consulting GmbH · Sevelen, Schweiz</p></div></footer>
 </body>
 </html>
