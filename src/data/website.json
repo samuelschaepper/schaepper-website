@@ -347,30 +347,22 @@
       "path": "/management-assessments",
       "title": "Management-Assessments",
       "seo": {
-        "title": "Management-Assessments & Organisationsanalysen",
-        "description": "Organisationen verstehen. Leistungsfähigkeit beurteilen. Handlungsbedarf erkennen. Beratung und Umsetzung mit Blick auf unternehmerischen Nutzen und Wirtschaftlichkeit."
+        "title": "IT-Assessments & Standortbestimmungen",
+        "description": "Unabhängige Standortbestimmung für IT-Organisationen und IT-Dienstleister: Betriebsmodelle, Prozesse, Steuerung und priorisierte Massnahmen."
       },
-      "intro": "Organisationen verstehen. Leistungsfähigkeit beurteilen. Handlungsbedarf erkennen.",
+      "intro": "IT-Organisationen und IT-Dienstleister fundiert beurteilen",
       "sections": [
         {
           "heading": "Einführung",
           "paragraphs": [
-            "Vor wichtigen Entscheidungen oder Veränderungen ist eine unabhängige Standortbestimmung hilfreich: Sind Organisation, Führung, Prozesse und IT ausreichend wirksam aufgestellt? Wo bestehen Schwachstellen, Risiken oder unnötige Komplexität?",
-            "Wir führen fokussierte Management-Assessments von Unternehmen, Organisationseinheiten und IT-Dienstleistern durch. Umfang und Prüftiefe richten wir an den konkreten Fragen des Auftraggebers aus – auch bei begrenzten Ressourcen eines KMU.",
-            "Wir beurteilen die vorhandenen Strukturen und Fähigkeiten anhand nachvollziehbarer Kriterien. Das Ergebnis sind klare Feststellungen, priorisierter Handlungsbedarf und realistische Empfehlungen statt umfangreicher Berichte ohne Umsetzungsbezug."
+            "Wenn eine IT-Organisation vor Veränderungen steht, Leistungen nicht wie erwartet erbracht werden oder wichtige Entscheidungen anstehen, hilft eine unabhängige Standortbestimmung.",
+            "Wir beurteilen gezielt die Organisation, Steuerung und Leistungsfähigkeit von IT-Bereichen und IT-Dienstleistern. Im Mittelpunkt stehen IT-Betriebsmodelle, Rollen und Schnittstellen, Prozesse, Dienstleistersteuerung sowie die Fähigkeit, geschäftliche Anforderungen zuverlässig zu erfüllen.",
+            "Der Umfang wird mit dem Auftraggeber klar eingegrenzt. Wir dokumentieren nachvollziehbare Feststellungen und formulieren priorisierte, umsetzbare Empfehlungen."
           ]
         },
         {
           "heading": "Unsere Schwerpunkte",
           "items": [
-            {
-              "title": "Organisations-Assessments",
-              "text": "Wir beurteilen die Aufbau- und Ablauforganisation, die Aufgabenverteilung, Rollen, Verantwortlichkeiten und die Zusammenarbeit innerhalb der Organisation."
-            },
-            {
-              "title": "Management- und Governance-Assessments",
-              "text": "Wir analysieren Führungs- und Steuerungsstrukturen, Entscheidungsprozesse sowie die Wirksamkeit bestehender Governance-Mechanismen."
-            },
             {
               "title": "IT-Organisations-Assessments",
               "text": "Wir überprüfen die Leistungsfähigkeit von IT-Organisationen hinsichtlich Führung, Kompetenzen, Prozessen, Betriebsmodellen und Zusammenarbeit mit den Geschäftsbereichen."
@@ -413,21 +405,20 @@
         {
           "heading": "Typische Anlässe für ein Assessment",
           "items": [
-            "Strategische oder organisatorische Neuausrichtung",
-            "Wechsel in der Geschäftsleitung oder in Führungsfunktionen",
-            "Wiederkehrende Leistungs- und Qualitätsprobleme",
-            "Veränderungen der IT- oder Sourcing-Strategie",
-            "Unklare Verantwortlichkeiten und Schnittstellen",
-            "Vorbereitung grösserer Transformationsvorhaben",
-            "Unabhängige Standortbestimmung im Auftrag der Geschäftsleitung oder des Verwaltungsrats",
-            "Beurteilung, ob Organisation, Prozesse und IT für eine geplante Digitalisierung oder KI-Einführung ausreichend vorbereitet sind"
+            "Neuausrichtung oder Weiterentwicklung einer IT-Organisation oder eines IT-Betriebsmodells",
+            "Wiederkehrende Leistungs-, Qualitäts- oder Schnittstellenprobleme im IT-Betrieb",
+            "Veränderungen der IT-Sourcing-Strategie oder Wechsel eines IT-Dienstleisters",
+            "Unklare Verantwortlichkeiten zwischen Fachbereichen, interner IT und Dienstleistern",
+            "Vorbereitung grösserer IT-Transformations- oder Digitalisierungsvorhaben",
+            "Unabhängige Standortbestimmung der IT im Auftrag von Geschäftsleitung oder Verwaltungsrat",
+            "Beurteilung organisatorischer und technischer Voraussetzungen für konkrete KI- oder Digitalisierungsvorhaben"
           ]
         },
         {
           "heading": "Ihr Nutzen",
           "paragraphs": [
-            "Ein Management-Assessment schafft eine fundierte und unabhängige Sicht auf den Zustand und die Leistungsfähigkeit einer Organisation.",
-            "Sie erhalten eine nachvollziehbare Beurteilung, eine transparente Darstellung des Handlungsbedarfs und konkrete Empfehlungen zur Weiterentwicklung."
+            "Sie erhalten eine unabhängige, nachvollziehbare Einschätzung Ihrer IT-Organisation oder Ihres IT-Dienstleisters – mit klar benannten Stärken, Schwachstellen und Risiken.",
+            "Priorisierte Massnahmen erleichtern Entscheidungen über Verantwortlichkeiten, Prozesse, Betriebsmodelle und die nächsten Schritte."
           ],
           "cta": {
             "label": "Assessment besprechen",
@@ -441,66 +432,66 @@
       "path": "/interim-management",
       "title": "Interim-Management",
       "seo": {
-        "title": "Interim-Management & Führung auf Zeit",
-        "description": "Führung und Managementverantwortung auf Zeit. Beratung und Umsetzung mit Blick auf unternehmerischen Nutzen und Wirtschaftlichkeit."
+        "title": "Interim IT-Management & CIO auf Zeit",
+        "description": "CIO- und IT-Leitung auf Zeit, flexible IT-Führung für KMU und temporäre Managementverantwortung für IT-Dienstleister."
       },
-      "intro": "Führung und Managementverantwortung auf Zeit",
+      "intro": "Erfahrene IT-Führung – auf Zeit oder bedarfsgerecht",
       "sections": [
         {
           "heading": "Einführung",
           "paragraphs": [
-            "Wenn Führungskapazität kurzfristig fehlt oder eine Veränderung zusätzliche Managementerfahrung verlangt, ist eine zeitlich befristete Übernahme von Verantwortung oft sinnvoll.",
-            "Wir übernehmen klar definierte Führungs- und Managementaufgaben, insbesondere in IT-Organisationen, bei IT-Dienstleistern und in Transformationssituationen. Das Angebot richtet sich an KMU ebenso wie an grössere Unternehmen mit einem konkreten temporären Bedarf.",
-            "Wir handeln innerhalb des vereinbarten Mandats unternehmerisch, beachten Wirtschaftlichkeit und operative Anforderungen und sorgen für nachvollziehbare Entscheidungen sowie eine geordnete Übergabe."
+            "Nicht jedes Unternehmen benötigt eine vollzeitlich besetzte CIO-Funktion. Gleichzeitig brauchen IT-Investitionen, externe Dienstleister, Informationssicherheit und Veränderungsvorhaben eine klare Führung und verlässliche Entscheidungen.",
+            "Wir übernehmen IT-Führungsverantwortung für einen vereinbarten Zeitraum oder unterstützen KMU mit regelmässig verfügbarer IT-Managementkompetenz. Dabei arbeiten wir eng mit Geschäftsleitung, Fachbereichen und externen Partnern zusammen.",
+            "Für grössere Unternehmen und IT-Dienstleister übernehmen wir gezielte, zeitlich befristete Führungsmandate mit klar definierten Aufgaben, Kompetenzen und Ergebnissen."
           ]
         },
         {
           "heading": "Unsere Schwerpunkte",
           "items": [
             {
-              "title": "Interim IT-Management",
-              "text": "Wir übernehmen temporär die Führung von IT-Organisationen, beispielsweise in der Funktion eines IT-Leiters oder CIOs. Dabei stellen wir die operative Steuerung sicher und begleiten die strategische Weiterentwicklung."
+              "title": "CIO oder IT-Leiter auf Zeit",
+              "text": "Wir übernehmen bei einer Vakanz oder in einer Übergangsphase die Führung der IT: Mitarbeitende und Dienstleister steuern, Prioritäten festlegen, Budgets und Risiken überblicken sowie den laufenden Betrieb und anstehende Entscheidungen sicherstellen."
             },
             {
-              "title": "Management von IT-Dienstleistern",
-              "text": "Wir übernehmen Managementaufgaben in IT-Dienstleistungsunternehmen und unterstützen bei organisatorischen Veränderungen, der Steuerung des Leistungsgeschäfts und der Weiterentwicklung von Führungsstrukturen."
+              "title": "IT-Management für KMU auf Abruf",
+              "text": "Wo keine eigene CIO-Funktion besteht, unterstützen wir die Geschäftsleitung regelmässig und in vereinbartem Umfang: bei IT-Prioritäten, Investitionsentscheiden, Budget und Kosten, Dienstleistersteuerung und der Weiterentwicklung der IT."
             },
             {
-              "title": "Transformationsmanagement",
-              "text": "Wir übernehmen Führungsverantwortung bei organisatorischen und technologischen Veränderungsvorhaben und koordinieren deren Umsetzung."
+              "title": "IT-Sparringspartner der Geschäftsleitung",
+              "text": "Wir beurteilen geplante IT-Vorhaben und Angebote unabhängig, hinterfragen Nutzen, Kosten, Risiken und Abhängigkeiten und bereiten fundierte Entscheide vor – ohne selbst als Produkt- oder Technologieanbieter aufzutreten."
             },
             {
-              "title": "Stabilisierung und Neuausrichtung",
-              "text": "Wir unterstützen Unternehmen in anspruchsvollen Situationen bei der Wiederherstellung klarer Führungs- und Steuerungsstrukturen sowie der Verbesserung ihrer operativen Leistungsfähigkeit."
+              "title": "Führung von IT-Dienstleistungsorganisationen",
+              "text": "Wir übernehmen temporär definierte Managementaufgaben bei IT-Dienstleistern, etwa für Servicequalität, Leistungssteuerung, Zusammenarbeit mit Kunden, Priorisierung oder die Weiterentwicklung des Betriebsmodells."
             },
             {
-              "title": "Überbrückung von Führungsvakanzen",
-              "text": "Wir stellen während personeller Übergangsphasen die notwendige Führungskontinuität sicher und schaffen die Voraussetzungen für eine geordnete Übergabe an eine dauerhafte Besetzung."
+              "title": "Übergabe und Aufbau tragfähiger Führungsstrukturen",
+              "text": "Wir klären Verantwortlichkeiten, etablieren praktikable Steuerungs- und Entscheidungsroutinen und übergeben Aufgaben, Ergebnisse und Wissen geordnet an die dauerhafte Organisation."
             }
           ]
         },
         {
           "heading": "Typische Einsatzsituationen",
           "items": [
-            "Eine Führungsposition ist vorübergehend nicht besetzt.",
-            "Eine Organisation befindet sich in einer umfassenden Veränderungsphase.",
-            "Für die Umsetzung strategischer Massnahmen fehlen interne Führungskapazitäten.",
-            "Eine IT-Organisation oder ein Dienstleistungsunternehmen muss stabilisiert oder neu ausgerichtet werden.",
-            "Ein komplexes Vorhaben erfordert zusätzliche Managementkompetenz mit klarer Verantwortung."
+            "Die CIO- oder IT-Leiter-Stelle ist vorübergehend nicht besetzt.",
+            "Ein KMU benötigt erfahrene IT-Führung, aber keine zusätzliche Vollzeitstelle.",
+            "Die Geschäftsleitung möchte IT-Investitionen und Dienstleister unabhängig beurteilen lassen.",
+            "Ein IT-Dienstleister benötigt für eine begrenzte Zeit zusätzliche Führungskapazität.",
+            "Vor einem Führungswechsel müssen Zuständigkeiten, Prioritäten und laufende Vorhaben geordnet werden."
           ]
         },
         {
           "heading": "Unsere Arbeitsweise",
           "paragraphs": [
-            "Interim-Management erfordert ein rasches Verständnis der Ausgangslage, klare Zielvereinbarungen und eine enge Zusammenarbeit mit den verantwortlichen Führungsgremien.",
-            "Wir übernehmen definierte Führungsaufgaben innerhalb der bestehenden Unternehmensorganisation und legen Wert auf transparente Steuerung, nachvollziehbare Entscheidungen und eine wirksame Zusammenarbeit mit Mitarbeitenden und Anspruchsgruppen.",
-            "Die Übergabe von Verantwortung, Wissen und Ergebnissen an die nachfolgende Organisation ist Bestandteil unseres Mandatsverständnisses."
+            "Zu Beginn vereinbaren wir Aufgaben, Entscheidungskompetenzen, zeitliche Verfügbarkeit und Berichtswege. So ist klar, ob wir die IT-Führungsfunktion übernehmen oder die bestehende Führung beraten.",
+            "Im Mandat sorgen wir für transparente Prioritäten, eine verlässliche Abstimmung mit der Geschäftsleitung und nachvollziehbare Entscheide über Leistungen, Risiken und Kosten.",
+            "Bei befristeten Führungsmandaten planen wir die Übergabe von Verantwortung und Wissen von Anfang an mit ein."
           ]
         },
         {
           "heading": "Ihr Nutzen",
           "paragraphs": [
-            "Sie erhalten erfahrene Managementunterstützung für einen klar definierten Zeitraum. Damit sichern Sie die Führungskontinuität, schaffen zusätzliche Handlungskapazität und können notwendige Veränderungen konsequent umsetzen."
+            "Sie gewinnen bedarfsgerecht erfahrene IT-Managementkapazität, klare Verantwortung und eine unabhängige Sicht auf Entscheidungen und Dienstleister – ohne zwangsläufig eine dauerhafte Vollzeitfunktion aufzubauen."
           ],
           "cta": {
             "label": "Interim-Mandat besprechen",
