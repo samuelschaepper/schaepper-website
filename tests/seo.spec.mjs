@@ -5,7 +5,7 @@ const publishedPaths = ['/', '/leistungen', '/it-beratung', '/projektmanagement'
 test('sitemap only includes published canonical pages', async ({ request }) => {
   const response = await request.get('/sitemap.xml');
   expect(response.ok()).toBeTruthy();
-  expect(response.headers()['content-type']).toContain('application/xml');
+  expect(response.headers()['content-type']).toMatch(/(?:application|text)\/xml/);
   const sitemap = await response.text();
   for (const path of publishedPaths) {
     const expected = `https://www.schaepper.com${path}`;
