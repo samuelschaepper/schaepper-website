@@ -505,43 +505,49 @@
       "path": "/ueber-mich",
       "title": "Über mich",
       "seo": {
-        "title": "Samuel Schäpper – Über mich",
-        "description": "Samuel Schäpper – Gründer und Geschäftsführer der Schäpper Consulting GmbH"
+        "title": "Über mich – Samuel Schäpper | Schäpper Consulting",
+        "description": "Samuel Schäpper: langjährige CIO- und Managementerfahrung, Projektmanagement, digitale Transformation sowie unabhängige IT- und Managementberatung."
       },
       "intro": "Samuel Schäpper – Gründer und Geschäftsführer der Schäpper Consulting GmbH",
       "sections": [
         {
-          "heading": "Erfahrung. Unabhängigkeit. Verantwortung.",
+          "heading": "Erfahrung, die verbindet",
           "paragraphs": [
-            "Im Verlauf meiner beruflichen Tätigkeit habe ich umfassende Erfahrungen in der Führung und Weiterentwicklung von IT-Organisationen, im Management komplexer Vorhaben sowie in der Gestaltung von Governance- und Betriebsmodellen gesammelt.",
-            "Dabei habe ich die Herausforderungen moderner Unternehmen aus unterschiedlichen Perspektiven kennengelernt – sowohl in strategischen und organisatorischen Fragestellungen als auch in der operativen Führungs- und Umsetzungsverantwortung.",
-            "Ein besonderer Schwerpunkt meiner Erfahrung liegt in der Finanzindustrie und in regulierten Unternehmensumfeldern. Die Anforderungen an Informationssicherheit, regulatorische Konformität, betriebliche Stabilität und die Zusammenarbeit mit IT-Dienstleistern haben meine berufliche Tätigkeit wesentlich geprägt.",
-            "Mit der Gründung der Schäpper Consulting GmbH habe ich mich entschieden, meine Erfahrung und Kompetenzen als unabhängiger Berater und Manager Unternehmen unterschiedlicher Branchen zur Verfügung zu stellen."
+            "Ich verfüge über mehr als 20 Jahre Führungs- und Managementerfahrung, davon rund 13 Jahre als CIO beziehungsweise IT-Leiter. Seit über 25 Jahren beschäftige ich mich mit der Leitung von Projekten, der digitalen Transformation und der Weiterentwicklung von Organisationen und Geschäftsprozessen.",
+            "Meine berufliche Laufbahn führte mich durch unterschiedliche Branchen, insbesondere die Finanzindustrie, das Gesundheitswesen, die öffentliche Verwaltung und das industrielle Umfeld.",
+            "Diese Erfahrungen haben mein Verständnis für das Zusammenspiel von Unternehmensstrategie, Organisation, Menschen, Prozessen und Technologie geprägt."
           ]
         },
         {
-          "heading": "Mein Beratungsverständnis",
+          "heading": "Mein Führungs- und Beratungsverständnis",
           "paragraphs": [
-            "Ich bin überzeugt, dass erfolgreiche Veränderungen ein fundiertes Verständnis der Ausgangslage, klare Zielsetzungen und eine konsequente Umsetzung erfordern.",
-            "Deshalb lege ich Wert darauf, Fragestellungen ganzheitlich zu betrachten, bestehende Annahmen kritisch zu hinterfragen und unterschiedliche Perspektiven einzubeziehen.",
-            "Meine Arbeitsweise ist strukturiert, analytisch und pragmatisch. Ich möchte Zusammenhänge verstehen, wesentliche Herausforderungen erkennen und gemeinsam mit meinen Auftraggebern Lösungen entwickeln, die im Unternehmensalltag funktionieren.",
-            "Dabei ist mir eine offene und partnerschaftliche Zusammenarbeit ebenso wichtig wie eine klare Kommunikation und ein verbindlicher Umgang mit übernommenen Aufgaben."
+            "Ich verstehe mich als Führungspersönlichkeit, die Menschen für gemeinsame Ziele gewinnen und Veränderungen aktiv gestalten möchte.",
+            "Dabei verbinde ich analytisches und vernetztes Denken mit einem pragmatischen Vorgehen. Mir ist wichtig, nicht nur fachlich überzeugende, sondern auch wirtschaftlich tragfähige Lösungen zu entwickeln.",
+            "Ich hinterfrage bestehende Annahmen, schaffe Klarheit über Ziele und Verantwortlichkeiten und lege Wert auf eine offene, wertschätzende und verbindliche Zusammenarbeit."
           ]
         },
         {
-          "heading": "Von der Analyse bis zur Umsetzung",
+          "heading": "Unternehmerisch denken. Verantwortung übernehmen.",
           "paragraphs": [
-            "Eine gute Analyse und ein fundiertes Konzept schaffen wichtige Voraussetzungen für erfolgreiche Entscheidungen. Nachhaltige Verbesserungen entstehen jedoch erst durch die Umsetzung.",
-            "Deshalb beschränkt sich mein Leistungsverständnis nicht auf die beratende Tätigkeit.",
-            "Je nach Aufgabenstellung übernehme ich auch die Verantwortung für Projekte, Transformationsvorhaben oder zeitlich befristete Managementfunktionen."
+            "Unternehmen müssen sich laufend an veränderte Rahmenbedingungen anpassen. Neue Technologien, regulatorische Anforderungen und wirtschaftliche Entwicklungen stellen bestehende Strukturen und Prozesse infrage.",
+            "Ich unterstütze meine Auftraggeber dabei, die Auswirkungen solcher Veränderungen auf Organisation, Prozesse und IT zu verstehen und geeignete Massnahmen abzuleiten.",
+            "Mein Anspruch ist es, nicht bei Analysen und Konzepten stehen zu bleiben. Wo es die Aufgabe erfordert, übernehme ich auch Verantwortung für die Umsetzung oder zeitlich befristete Managementfunktionen."
           ]
         },
         {
-          "heading": "Zusammenarbeit auf Augenhöhe",
+          "heading": "Ausbildung und Weiterbildung",
+          "items": [
+            "Executive MBA HSG",
+            "Master of Science in Business Information Systems",
+            "Diplomingenieur HTL",
+            "Weiterbildung AI & Data Leadership, Universität St. Gallen (HSG)"
+          ]
+        },
+        {
+          "heading": "Persönlich und unabhängig",
           "paragraphs": [
-            "Ich arbeite direkt mit den verantwortlichen Personen und Organisationen meiner Auftraggeber zusammen.",
-            "Dabei ist es mein Ziel, einen konkreten Beitrag zur Lösung anspruchsvoller Fragestellungen und zur nachhaltigen Weiterentwicklung von Unternehmen zu leisten.",
-            "Ich freue mich darauf, Sie und Ihre Herausforderungen kennenzulernen.",
+            "Mit der Gründung der Schäpper Consulting GmbH habe ich mich entschieden, meine Erfahrungen und Kompetenzen als unabhängiger Berater und Manager einzubringen.",
+            "Ich arbeite direkt mit meinen Auftraggebern zusammen, lege Wert auf gegenseitiges Vertrauen und möchte einen konkreten Beitrag zur erfolgreichen Weiterentwicklung ihrer Unternehmen leisten.",
             "Samuel Schäpper"
           ],
           "cta": {
