@@ -1,7 +1,24 @@
 ---
 import site from '../data/website.json';
 const { title, description, path='/', robots='index,follow' } = Astro.props;
-const canonical = new URL(path === '/' ? '/' : path.replace(/\/$/,'')+'/', 'https://www.schaepper.com').toString();
+const canonical = new URL(path === '/' ? '/' : path.replace(/\/$/, ''), 'https://www.schaepper.com').toString();
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Schäpper Consulting GmbH',
+  url: 'https://www.schaepper.com/',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Jörlisbüel 5',
+    postalCode: '9475',
+    addressLocality: 'Sevelen',
+    addressCountry: 'CH'
+  },
+  areaServed: [
+    { '@type': 'Country', name: 'Schweiz' },
+    { '@type': 'Country', name: 'Liechtenstein' }
+  ]
+};
 const menu = site.navigation;
 ---
 <!doctype html>
@@ -15,6 +32,7 @@ const menu = site.navigation;
 <link rel="canonical" href={canonical} />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <title>{title}</title>
+<script type="application/ld+json" is:inline set:html={JSON.stringify(organizationSchema)} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content="website" />
