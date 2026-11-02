@@ -81,8 +81,8 @@
       "path": "/",
       "title": "Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.",
       "seo": {
-        "title": "Schäpper Consulting – Beratung, Transformation und Management",
-        "description": "Unabhängige IT- und Managementberatung insbesondere für KMU. Projekt- und Transformationsleitung sowie Interim-Management auch für grössere Unternehmen."
+        "title": "IT-Beratung, IT-Projektleitung & CIO auf Zeit | Schäpper Consulting",
+        "description": "Unabhängige IT-Beratung für KMU in der Schweiz und Liechtenstein. IT-Governance, digitale Transformation, IT-Projektleitung, Programmmanagement und CIO auf Zeit."
       },
       "intro": "Wir unterstützen insbesondere kleine und mittlere Unternehmen bei strategischen, organisatorischen und technologischen Herausforderungen – mit unabhängiger Beratung, langjähriger Managementerfahrung und einem klaren Blick für wirtschaftlich tragfähige Lösungen.",
       "sections": [
@@ -148,8 +148,8 @@
       "path": "/leistungen",
       "title": "Unsere Leistungen",
       "seo": {
-        "title": "Beratungs- und Managementleistungen",
-        "description": "Beratung, Analyse, Umsetzung und Führung"
+        "title": "IT-Beratung, Projektleitung & Interim-Management | Schäpper",
+        "description": "IT-Beratung und IT-Governance, IT-Projektleitung, Programmmanagement, digitale Transformation, IT-Assessments und CIO auf Zeit – für Unternehmen in der Schweiz und Liechtenstein."
       },
       "intro": "Beratung, Analyse, Umsetzung und Führung",
       "sections": [
@@ -199,8 +199,8 @@
       "path": "/it-beratung",
       "title": "IT-Beratung und Managementdienstleistungen",
       "seo": {
-        "title": "IT-Beratung, Governance & Betriebsmodelle",
-        "description": "IT strategisch ausrichten und wirksam steuern. Beratung und Umsetzung mit Blick auf unternehmerischen Nutzen und Wirtschaftlichkeit."
+        "title": "IT-Beratung & IT-Governance für KMU | Schäpper Consulting",
+        "description": "IT-Beratung in der Schweiz und Liechtenstein: IT-Strategie, Governance, Informationssicherheit, Sourcing, Betriebsmodelle und unabhängige IT-Steuerung."
       },
       "intro": "IT strategisch ausrichten und wirksam steuern",
       "sections": [
@@ -274,8 +274,8 @@
       "path": "/projektmanagement",
       "title": "Projektmanagement und Transformation",
       "seo": {
-        "title": "Projektmanagement & Transformation",
-        "description": "Komplexe Vorhaben strukturieren und Veränderungen erfolgreich umsetzen. Beratung und Umsetzung mit Blick auf unternehmerischen Nutzen und Wirtschaftlichkeit."
+        "title": "IT-Projektleitung, Programmmanagement & Transformation | Schäpper",
+        "description": "Externe IT-Projektleitung und Programmmanagement in der Schweiz und Liechtenstein. Wir steuern IT-Projekte, digitale Transformation und anspruchsvolle Veränderungsvorhaben."
       },
       "intro": "Komplexe Vorhaben strukturieren und Veränderungen erfolgreich umsetzen",
       "sections": [
@@ -283,7 +283,7 @@
           "heading": "Einführung",
           "paragraphs": [
             "Veränderungen durch neue Technologien, veränderte Kundenanforderungen oder organisatorische Entscheidungen müssen im Unternehmen wirksam umgesetzt werden. Dafür braucht es klare Ziele, unternehmerische Prioritäten und eine verlässliche Führung des Vorhabens.",
-            "Wir übernehmen die Leitung und Steuerung anspruchsvoller Projekte und Transformationsvorhaben – für KMU ebenso wie im Rahmen klar abgegrenzter Mandate bei grösseren Unternehmen.",
+            "Wir übernehmen die IT-Projektleitung, das Programmmanagement sowie die Führung anspruchsvoller Transformationsvorhaben – für KMU ebenso wie im Rahmen klar abgegrenzter Mandate bei grösseren Unternehmen.",
             "Wir verbinden strukturiertes Projektmanagement mit Führungs- und Umsetzungserfahrung. Neben Terminen, Kosten und Qualität berücksichtigen wir die Auswirkungen auf Organisation, Prozesse, Mitarbeitende und den laufenden Betrieb."
           ]
         },
@@ -291,15 +291,15 @@
           "heading": "Unsere Schwerpunkte",
           "items": [
             {
-              "title": "Projektleitung und Projektsteuerung",
+              "title": "IT-Projektleitung und Projektsteuerung",
               "text": "Wir übernehmen die operative Leitung von Projekten und stellen eine strukturierte Planung, Steuerung und Berichterstattung sicher. Dazu gehören die Führung der Projektorganisation, die Koordination der Beteiligten sowie das Management von Risiken, Ressourcen und Abhängigkeiten."
             },
             {
-              "title": "Programm- und Multiprojektmanagement",
+              "title": "Programmmanagement und Programmleitung",
               "text": "Wir koordinieren zusammenhängende Projekte, schaffen Transparenz über Abhängigkeiten und unterstützen bei der Priorisierung sowie der übergreifenden Steuerung."
             },
             {
-              "title": "Organisations- und IT-Transformation",
+              "title": "Digitale Transformation und IT-Transformation",
               "text": "Wir begleiten die Anpassung von Organisationen, Geschäftsprozessen, IT-Strukturen und Betriebsmodellen an konkrete geschäftliche und technologische Veränderungen – einschliesslich Vorhaben mit KI-Bezug. Dabei stehen Umsetzbarkeit, Akzeptanz und messbarer Nutzen im Vordergrund."
             },
             {
@@ -343,8 +343,8 @@
       "path": "/management-assessments",
       "title": "Management-Assessments",
       "seo": {
-        "title": "IT-Assessments & Standortbestimmungen",
-        "description": "Unabhängige Standortbestimmung für IT-Organisationen und IT-Dienstleister: Betriebsmodelle, Prozesse, Steuerung und priorisierte Massnahmen."
+        "title": "IT-Assessments & IT-Dienstleister prüfen | Schäpper Consulting",
+        "description": "Unabhängige IT-Assessments und Standortbestimmungen von IT-Organisationen und IT-Dienstleistern: Betriebsmodelle, Prozesse, Risiken und priorisierte Massnahmen."
       },
       "intro": "IT-Organisationen und IT-Dienstleister fundiert beurteilen",
       "sections": [
@@ -428,8 +428,8 @@
       "path": "/interim-management",
       "title": "Interim-Management",
       "seo": {
-        "title": "Interim IT-Management & CIO auf Zeit",
-        "description": "CIO- und IT-Leitung auf Zeit, flexible IT-Führung für KMU und temporäre Managementverantwortung für IT-Dienstleister."
+        "title": "CIO auf Zeit & externe IT-Leitung für KMU | Schäpper",
+        "description": "CIO auf Zeit, CIO as a Service (CIOaaS) und externe IT-Leitung für KMU in der Schweiz und Liechtenstein. Flexible IT-Führung und unabhängige IT-Steuerung."
       },
       "intro": "Erfahrene IT-Führung – auf Zeit oder bedarfsgerecht",
       "sections": [
@@ -449,8 +449,8 @@
               "text": "Wir übernehmen bei einer Vakanz oder in einer Übergangsphase die Führung der IT: Mitarbeitende und Dienstleister steuern, Prioritäten festlegen, Budgets und Risiken überblicken sowie den laufenden Betrieb und anstehende Entscheidungen sicherstellen."
             },
             {
-              "title": "IT-Management für KMU auf Abruf",
-              "text": "Wo keine eigene CIO-Funktion besteht, unterstützen wir die Geschäftsleitung regelmässig und in vereinbartem Umfang: bei IT-Prioritäten, Investitionsentscheiden, Budget und Kosten, Dienstleistersteuerung und der Weiterentwicklung der IT."
+              "title": "CIO as a Service (CIOaaS) – IT-Management für KMU",
+              "text": "Als CIO as a Service (CIOaaS) unterstützen wir Unternehmen ohne eigene CIO-Funktion regelmässig und in vereinbartem Umfang: bei IT-Prioritäten, Investitionsentscheiden, Budget und Kosten, Dienstleistersteuerung und der Weiterentwicklung der IT."
             },
             {
               "title": "IT-Sparringspartner der Geschäftsleitung",
@@ -501,8 +501,8 @@
       "path": "/ueber-mich",
       "title": "Über mich",
       "seo": {
-        "title": "Über mich – Samuel Schäpper | Schäpper Consulting",
-        "description": "Samuel Schäpper: langjährige CIO- und Managementerfahrung, Projektmanagement, digitale Transformation sowie unabhängige IT- und Managementberatung."
+        "title": "Samuel Schäpper – IT-Management & Beratung | Schäpper",
+        "description": "Samuel Schäpper: über 20 Jahre Führungserfahrung, darunter rund 13 Jahre als CIO oder IT-Leiter. IT-Projektleitung, Transformation und unabhängige Beratung."
       },
       "intro": "Samuel Schäpper – Gründer und Geschäftsführer der Schäpper Consulting GmbH",
       "sections": [
@@ -660,8 +660,8 @@
       "path": "/kontakt",
       "title": "Kontakt",
       "seo": {
-        "title": "Kontakt – Schäpper Consulting",
-        "description": "Lassen Sie uns ins Gespräch kommen"
+        "title": "Kontakt | IT-Beratung & Projektleitung | Schäpper Consulting",
+        "description": "Kontaktieren Sie Schäpper Consulting für IT-Beratung, IT-Projektleitung, Programmmanagement, Transformation, IT-Assessments und CIO auf Zeit."
       },
       "intro": "Lassen Sie uns ins Gespräch kommen",
       "sections": [
