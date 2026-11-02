@@ -25,6 +25,10 @@ jobs:
         run: npm install --no-save --package-lock=false @playwright/test
       - name: Install Chromium and OS dependencies
         run: npx playwright install --with-deps chromium
+      - name: Build static website for browser tests
+        env:
+          PUBLIC_TURNSTILE_SITE_KEY: 1x00000000000000000000AA
+        run: npm run build
       - name: Run responsive UI tests
         run: npx playwright test
       - name: Upload screenshots and test report
