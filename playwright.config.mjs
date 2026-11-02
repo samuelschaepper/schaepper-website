@@ -13,10 +13,10 @@ export default defineConfig({
     screenshot: 'only-on-failure',
   },
   webServer: {
-    command: 'npm run dev -- --host 127.0.0.1',
+    command: 'npm run preview -- --host 127.0.0.1',
     url: 'http://127.0.0.1:4321',
     reuseExistingServer: !process.env.CI,
-    timeout: 90_000,
+    timeout: 45_000,
     env: { PUBLIC_TURNSTILE_SITE_KEY: '1x00000000000000000000AA' },
   },
 });
