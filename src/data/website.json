@@ -85,28 +85,16 @@
       "path": "/",
       "title": "Klarheit schaffen. Veränderungen gestalten. Verantwortung übernehmen.",
       "seo": {
-        "title": "Schäpper Consulting – Beratung & Management",
-        "description": "Unabhängige Beratung und Managementunterstützung für Unternehmen und Organisationen."
+        "title": "Schäpper Consulting – Beratung, Transformation und Management",
+        "description": "Unabhängige IT- und Managementberatung, Projektmanagement, Management-Assessments und Interim-Management. Klarheit schaffen und Veränderungen wirksam gestalten."
       },
-      "intro": "Unabhängige Beratung und Managementunterstützung für Unternehmen und Organisationen.",
+      "intro": "Wir unterstützen Unternehmen bei strategischen, organisatorischen und technologischen Herausforderungen – mit unabhängiger Beratung, langjähriger Managementerfahrung und der Bereitschaft, Verantwortung in der Umsetzung zu übernehmen.",
       "sections": [
         {
-          "heading": "Einführung",
+          "heading": "Beratung, die Zusammenhänge erkennt und Veränderungen wirksam macht.",
           "paragraphs": [
-            "Schäpper Consulting begleitet Unternehmen bei strategischen, organisatorischen und technologischen Herausforderungen. Wir unterstützen bei der Analyse komplexer Fragestellungen, der Entwicklung tragfähiger Lösungen und der erfolgreichen Umsetzung von Veränderungen.",
-            "Unsere Dienstleistungen verbinden fundierte Management- und IT-Erfahrung mit einer unabhängigen Aussensicht und einem pragmatischen Vorgehen."
-          ],
-          "cta": {
-            "label": "Unsere Leistungen entdecken",
-            "href": "/leistungen"
-          }
-        },
-        {
-          "heading": "Erfahrung und Verantwortung",
-          "paragraphs": [
-            "Unternehmen stehen vor vielfältigen Herausforderungen: Veränderungen im Marktumfeld, neue regulatorische Anforderungen, technologische Entwicklungen oder die Notwendigkeit, bestehende Strukturen und Prozesse weiterzuentwickeln.",
-            "Wir unterstützen unsere Kunden dabei, diese Herausforderungen systematisch anzugehen. Dabei betrachten wir organisatorische, wirtschaftliche und technologische Aspekte im Zusammenhang und entwickeln Lösungen, die sich an den konkreten Anforderungen des Unternehmens orientieren.",
-            "Wir verstehen Beratung nicht als isolierte Erarbeitung von Konzepten. Wo es erforderlich ist, übernehmen wir auch Verantwortung für Projekte, Veränderungen und Managementaufgaben."
+            "Unternehmen müssen sich kontinuierlich weiterentwickeln. Neue Technologien, regulatorische Anforderungen, organisatorische Veränderungen und wirtschaftliche Herausforderungen erfordern klare Entscheidungen und konsequentes Handeln.",
+            "Wir verbinden strategisches Denken mit operativer Erfahrung. Wir analysieren komplexe Ausgangslagen, entwickeln umsetzbare Lösungen und begleiten deren Umsetzung – unabhängig, pragmatisch und mit Blick auf die Wirtschaftlichkeit."
           ]
         },
         {
@@ -114,59 +102,43 @@
           "items": [
             {
               "title": "IT-Beratung und Managementdienstleistungen",
-              "text": "Wir unterstützen Unternehmen bei der strategischen und organisatorischen Weiterentwicklung ihrer IT. Unsere Schwerpunkte liegen in den Bereichen IT-Governance, Informationssicherheit, Sourcing, Betriebsmodelle und Digitalisierung.",
+              "text": "IT-Governance, Informationssicherheit, Sourcing, Digitalisierung und wirksame IT-Betriebsmodelle.",
               "href": "/it-beratung"
             },
             {
               "title": "Projektmanagement und Transformation",
-              "text": "Wir übernehmen die Leitung und Steuerung anspruchsvoller Projekte und begleiten organisatorische und technologische Veränderungen – von der Planung bis zur Umsetzung.",
+              "text": "Führung anspruchsvoller Projekte und Umsetzung organisatorischer und technologischer Veränderungen.",
               "href": "/projektmanagement"
             },
             {
               "title": "Management-Assessments",
-              "text": "Wir analysieren Unternehmen, Organisationen und IT-Dienstleister hinsichtlich ihrer Strukturen, Prozesse, Steuerung und Leistungsfähigkeit. Unsere unabhängigen Beurteilungen schaffen Transparenz und fundierte Entscheidungsgrundlagen.",
+              "text": "Unabhängige Analyse von Organisationen, Führungsstrukturen, Prozessen und Leistungsfähigkeit.",
               "href": "/management-assessments"
             },
             {
               "title": "Interim-Management",
-              "text": "Wir übernehmen zeitlich befristete Führungs- und Managementfunktionen. Damit unterstützen wir Unternehmen bei personellen Übergängen, organisatorischen Veränderungen und besonderen Herausforderungen.",
+              "text": "Temporäre Übernahme von Führungs- und Managementverantwortung in anspruchsvollen Situationen.",
               "href": "/interim-management"
             }
           ]
         },
         {
-          "heading": "Branchenübergreifende Kompetenz",
+          "heading": "Erfahrung, die Orientierung schafft",
           "paragraphs": [
-            "Unsere Dienstleistungen richten sich an Unternehmen unterschiedlicher Branchen und Grössen.",
-            "Ein besonderer Erfahrungsschwerpunkt liegt in der Finanzindustrie und in regulierten Unternehmensumfeldern. Wir kennen die Anforderungen an IT-Governance, Informationssicherheit, Outsourcing und die Steuerung komplexer IT-Dienstleistungen.",
-            "Diese Erfahrungen bringen wir auch in anderen Branchen ein – insbesondere dort, wo hohe Anforderungen an Zuverlässigkeit, Sicherheit, Wirtschaftlichkeit und organisatorische Leistungsfähigkeit bestehen."
+            "Unsere Beratung baut auf langjähriger Führungs- und Projekterfahrung in unterschiedlichen Branchen auf. Ein besonderer Schwerpunkt liegt in der Finanzindustrie, im Gesundheitswesen und in regulierten Unternehmensumfeldern.",
+            "Wir betrachten Herausforderungen ganzheitlich – im Zusammenspiel von Strategie, Organisation, Menschen, Prozessen und Technologie. Dabei behalten wir stets die wirtschaftlichen und betrieblichen Auswirkungen im Blick."
           ]
         },
         {
-          "heading": "Unser Beratungsverständnis",
-          "items": [
-            {
-              "title": "Unabhängigkeit",
-              "text": "Wir beurteilen Sachverhalte objektiv und vertreten klare, nachvollziehbare Positionen. Unsere Empfehlungen orientieren sich an den Interessen und Zielen unserer Kunden."
-            },
-            {
-              "title": "Ganzheitliche Betrachtung",
-              "text": "Wir berücksichtigen die Zusammenhänge zwischen Unternehmensstrategie, Organisation, Menschen, Prozessen und Technologie."
-            },
-            {
-              "title": "Pragmatismus",
-              "text": "Wir entwickeln umsetzbare Lösungen, die zu den Anforderungen, Möglichkeiten und zur Unternehmenskultur unserer Kunden passen."
-            },
-            {
-              "title": "Verantwortung",
-              "text": "Wir begleiten unsere Kunden nicht nur bei der Entscheidungsfindung, sondern übernehmen bei Bedarf auch Verantwortung in der Umsetzung."
-            }
+          "heading": "Unser Anspruch",
+          "paragraphs": [
+            "Wir schaffen Transparenz, ermöglichen fundierte Entscheidungen und unterstützen deren konsequente Umsetzung. Unsere Zusammenarbeit ist geprägt von Unabhängigkeit, klarer Kommunikation, Pragmatismus und der Bereitschaft, Verantwortung zu übernehmen."
           ]
         },
         {
           "heading": "Lassen Sie uns ins Gespräch kommen",
           "paragraphs": [
-            "Sie möchten Ihre Organisation weiterentwickeln, ein anspruchsvolles Vorhaben umsetzen oder benötigen eine unabhängige Einschätzung? Gerne besprechen wir Ihre Ausgangslage und die Möglichkeiten einer Zusammenarbeit."
+            "Sie stehen vor einer Veränderung, möchten Ihre Organisation weiterentwickeln oder benötigen zusätzliche Managementkompetenz? Gerne besprechen wir Ihre Ausgangslage und mögliche Formen der Zusammenarbeit."
           ],
           "cta": {
             "label": "Kontakt aufnehmen",
